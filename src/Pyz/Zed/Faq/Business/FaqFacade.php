@@ -69,7 +69,15 @@ class FaqFacade extends AbstractFacade implements FaqFacadeInterface
             ->createFaqReader()
             ->getFaqCollection($FaqsRestApiTransfer);
     }
-
-
+    /**
+     * @param \Generated\Shared\Transfer\FaqTransfer $FaqsRestApiTransfer
+     * @return \Generated\Shared\Transfer\FaqTransfer $FaqsRestApiTransfer
+     */
+    public function getFaq(FaqTransfer $FaqRestApiTransfer): FaqTransfer
+    {
+        return $this->getFactory()
+            ->createFaqReader()
+            ->getFaq($FaqRestApiTransfer);
+    }
 }
 

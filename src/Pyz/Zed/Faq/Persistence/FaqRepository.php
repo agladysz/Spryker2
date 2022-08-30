@@ -58,11 +58,17 @@ class FaqRepository extends AbstractRepository implements FaqRepositoryInterface
             ->find();
 
         foreach ($FaqCollection as $FaqEntity) {
-            $faqTransfer = (new FaqTransfer())->fromArray($FaqEntity->toArray());
+            $faqTransfer = $this->mapEntityToTransfer($FaqEntity);
             $faqsRestApiTransfer->addFaq($faqTransfer);
         }
 
         return $faqsRestApiTransfer;
+    }
+
+    public function getFaq(FaqTransfer $faqRestApiTransfer): FaqTransfer
+    {
+        $FaqCollection = $this->findFaqById($faqRestApiTransfer->getIdFaq());
+        return $FaqCollection;
     }
 
 }

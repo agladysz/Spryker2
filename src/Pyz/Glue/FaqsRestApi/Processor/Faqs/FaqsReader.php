@@ -2,6 +2,7 @@
 
 namespace Pyz\Glue\FaqsRestApi\Processor\Faqs;
 
+use Generated\Shared\Transfer\FaqTransfer;
 use Generated\Shared\Transfer\FaqCollectionTransfer;
 use Pyz\Glue\FaqsRestApi\FaqsRestApiConfig;
 use Pyz\Glue\FaqsRestApi\Processor\Mapper\FaqsResourceMapperInterface;
@@ -32,6 +33,7 @@ class FaqsReader implements FaqsReaderInterface
     )
     {
         $this->faqsRestApiClient = $faqsRestApiClient;
+        $this->faqRestApiClient = $faqsRestApiClient;
         $this->restResourceBuilder = $restResourceBuilder;
         $this->faqMapper = $faqMapper;
     }
@@ -56,6 +58,33 @@ class FaqsReader implements FaqsReaderInterface
         }
 
         return $restResponse;
+    }
+    public function getFaq(RestRequestInterface $restRequest): RestResponseInterface
+    {
+         $restResponse = $this->restResourceBuilder->createRestResponse();
+         $faqTransfer = $this->faqsRestApiClient->getFaq(new FaqTransfer(), $restRequest->getResource()->getId());
+
+        if( !is_null($faqTransfer) ) {
+            $restResource = $this->restResourceBuilder->createRestResource(
+                FaqsRestApiConfig::RESOURCE_FAQS,
+                $faqTransfer->getIdFaq(),
+                $this->faqMapper->mapFaqDataToFaqRestAttributes($faqTransfer->toArray())
+            );
+            $restResponse->addResource($restResource);
+        }
+        return $restResponse;
+
+        /* $restResponse = $this->restResourceBuilder->createRestResponse();
+
+        $faqTransfer = $this->faqsRestApiClient->getFaq(new FaqTransfer());
+        $restResource = $this->restResourceBuilder->createRestResource(
+            FaqSRestApiConfig::RESOURCE_FAQ,
+            $faqTransfer->getIdFaq(),
+            $this->faqMapper->mapFaqDataToFaqRestAttributes($faqTransfer->toArray())
+        );
+        $restResponse->addResource($restResource);
+
+        return $restResponse; */
     }
 }
 
