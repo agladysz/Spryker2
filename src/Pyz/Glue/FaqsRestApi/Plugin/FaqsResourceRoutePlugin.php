@@ -13,7 +13,8 @@ use Spryker\Glue\Kernel\AbstractPlugin;
 class FaqsResourceRoutePlugin extends AbstractPlugin implements ResourceRoutePluginInterface {
     public function configure(ResourceRouteCollectionInterface $resourceRouteCollection): ResourceRouteCollectionInterface
     {
-        $resourceRouteCollection->addGet('get', false);
+        $resourceRouteCollection->addGet('get', false)
+            ->addDelete('delete')->addPatch('patch')->addGet('get');
         return $resourceRouteCollection;
     }
     public function getResourceType(): string

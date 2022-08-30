@@ -73,18 +73,24 @@ class FaqsReader implements FaqsReaderInterface
             $restResponse->addResource($restResource);
         }
         return $restResponse;
+    }
 
-        /* $restResponse = $this->restResourceBuilder->createRestResponse();
+    public function postFaq(RestRequestInterface $restRequest): RestResponseInterface
+    {
+        $restResponse = $this->restResourceBuilder->createRestResponse();
+        return $restResponse;
+    }
 
-        $faqTransfer = $this->faqsRestApiClient->getFaq(new FaqTransfer());
-        $restResource = $this->restResourceBuilder->createRestResource(
-            FaqSRestApiConfig::RESOURCE_FAQ,
-            $faqTransfer->getIdFaq(),
-            $this->faqMapper->mapFaqDataToFaqRestAttributes($faqTransfer->toArray())
-        );
-        $restResponse->addResource($restResource);
+    public function patchFaq(RestRequestInterface $restRequest): RestResponseInterface
+    {
+        $restResponse = $this->restResourceBuilder->createRestResponse();
+        return $restResponse;
+    }
 
-        return $restResponse; */
+    public function deleteFaq(RestRequestInterface $restRequest): RestResponseInterface
+    {
+        $restResponse = $this->restResourceBuilder->createRestResponse();
+        return $restResponse;
     }
 }
 

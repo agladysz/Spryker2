@@ -13,4 +13,8 @@ interface FaqsReaderInterface
     public function getFaqs(RestRequestInterface $restRequest): RestResponseInterface;
     public function getFaq(RestRequestInterface $restRequest): RestResponseInterface;
 
+    public function postFaq(RestRequestInterface $restRequest): RestResponseInterface;
+    public function patchFaq(RestRequestInterface $restRequest): RestResponseInterface;
+    public function deleteFaq(RestRequestInterface $restRequest): RestResponseInterface;
+
 }
