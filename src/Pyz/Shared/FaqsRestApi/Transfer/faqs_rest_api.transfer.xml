@@ -2,16 +2,10 @@
 <transfers xmlns="spryker:transfer-01"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="spryker:transfer-01 http://static.spryker.com/transfer-01.xsd">
-    <transfer name="FaqCollection">
-        <property name="faqs" type="Faq[]" singular="faq"/>
-    </transfer>
-
-    <transfer name="Faq">
-        <property name="idFaq" type="int"/>
+    <transfer name="RestFaqsResponseAttributes">
         <property name="question" type="string"/>
         <property name="answer" type="string"/>
         <property name="activated" type="bool"/>
         <property name="votesCounter" type="int"/>
     </transfer>
-
 </transfers>

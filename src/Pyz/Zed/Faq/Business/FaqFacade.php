@@ -2,6 +2,7 @@
 namespace Pyz\Zed\Faq\Business;
 
 use Generated\Shared\Transfer\FaqTransfer;
+use Generated\Shared\Transfer\FaqCollectionTransfer;
 use Spryker\Zed\Kernel\Business\AbstractFacade;
 /**
  * @method \Pyz\Zed\Faq\Business\FaqBusinessFactory getFactory()
@@ -57,6 +58,18 @@ class FaqFacade extends AbstractFacade implements FaqFacadeInterface
             ->createFaqReader()
             ->findFaqById($idFaq);
     }
+
+    /**
+     * @param \Generated\Shared\Transfer\FaqCollectionTransfer $FaqsRestApiTransfer
+     * @return \Generated\Shared\Transfer\FaqCollectionTransfer $FaqsRestApiTransfer
+     */
+    public function getFaqCollection(FaqCollectionTransfer $FaqsRestApiTransfer): FaqCollectionTransfer
+    {
+        return $this->getFactory()
+            ->createFaqReader()
+            ->getFaqCollection($FaqsRestApiTransfer);
+    }
+
 
 }
 
