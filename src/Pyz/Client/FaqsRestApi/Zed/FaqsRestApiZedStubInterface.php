@@ -8,5 +8,5 @@ use Generated\Shared\Transfer\FaqTransfer;
 interface FaqsRestApiZedStubInterface
 {
     public function getFaqCollection(FaqCollectionTransfer $faqCollectionTransfer): FaqCollectionTransfer;
-    public function getFaq(FaqTransfer $faqTransfer, int $id): FaqTransfer;
+    public function getFaq(FaqTransfer $faqTransfer): FaqTransfer;
 }

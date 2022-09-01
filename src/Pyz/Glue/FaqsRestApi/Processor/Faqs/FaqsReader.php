@@ -59,11 +59,17 @@ class FaqsReader implements FaqsReaderInterface
 
         return $restResponse;
     }
+    /**
+     * @param RestRequestInterface $restRequest
+     * @return \Spryker\Glue\GlueApplication\Rest\JsonApi\RestResponseInterface
+     */
+
     public function getFaq(RestRequestInterface $restRequest): RestResponseInterface
     {
-         $restResponse = $this->restResourceBuilder->createRestResponse();
-         $faqTransfer = $this->faqsRestApiClient->getFaq(new FaqTransfer(), $restRequest->getResource()->getId());
+         $faqTransfer = new FaqTransfer();
+         $faqTransfer->setIdFaq($restRequest->getResource()->getId());
 
+<<<<<<< Updated upstream
         if( !is_null($faqTransfer) ) {
             $restResource = $this->restResourceBuilder->createRestResource(
                 FaqsRestApiConfig::RESOURCE_FAQS,
@@ -86,5 +92,22 @@ class FaqsReader implements FaqsReaderInterface
 
         return $restResponse; */
     }
+=======
+         $restResponse = $this->restResourceBuilder->createRestResponse();
+
+         $faqTransfer = $this->faqsRestApiClient->getFaq($faqTransfer);
+
+         if( !is_null($faqTransfer) ) {
+             $restResource = $this->restResourceBuilder->createRestResource(
+                 FaqsRestApiConfig::RESOURCE_FAQS,
+                 $faqTransfer->getIdFaq(),
+                 $this->faqMapper->mapFaqDataToFaqRestAttributes($faqTransfer->toArray())
+             );
+             $restResponse->addResource($restResource);
+         }
+         return $restResponse;
+    }
+
+>>>>>>> Stashed changes
 }
 

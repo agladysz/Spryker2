@@ -1,0 +1,1980 @@
+[33mcommit ed50ace72cdd46292798e444690b4e4e0873d4c5[m[33m ([m[1;36mHEAD -> [m[1;32mus3[m[33m, [m[1;31mmain/us3[m[33m)[m
+Author: aleksandra.gladysz <aleksandra.gladysz@accenture.com>
+Date:   Tue Aug 30 23:36:29 2022 +0200
+
+    Yves table reader generated
+
+[33mcommit 1cc87c43fea35bdb91a6143f860c9d2929623daf[m[33m ([m[1;31mmain/us2[m[33m, [m[1;32mus2[m[33m)[m
+Author: aleksandra.gladysz <aleksandra.gladysz@accenture.com>
+Date:   Tue Aug 30 20:59:36 2022 +0200
+
+    REST Entities avaliable by id
+
+[33mcommit 303595c59b84c01c7e748271e697c38832a77c55[m
+Author: aleksandra.gladysz <aleksandra.gladysz@accenture.com>
+Date:   Tue Aug 30 15:14:36 2022 +0200
+
+    Basic GET functionality
+
+[33mcommit 74d6f5798a63d5e8070de169748eaf06b54728e7[m[33m ([m[1;32mus1[m[33m)[m
+Author: aleksandra.gladysz <aleksandra.gladysz@accenture.com>
+Date:   Tue Aug 30 10:46:30 2022 +0200
+
+    Left menu link ZED
+
+[33mcommit 3b7e368d0d0e0c5584a965cae2a6d4c92ef9f486[m[33m ([m[1;31mmain/us1[m[33m, [m[1;31mmain/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: aleksandra.gladysz <aleksandra.gladysz@accenture.com>
+Date:   Tue Aug 30 09:38:45 2022 +0200
+
+    Basic functionality - CRUD
+
+[33mcommit 81cf8b79179497cd08b4a33a6a89a825609469c6[m
+Author: aleksandra.gladysz <aleksandra.gladysz@accenture.com>
+Date:   Tue Aug 30 09:38:37 2022 +0200
+
+    Basic functionality - CRUD
+
+[33mcommit 9bbb688090c351d0f0fe316ea09867b1bc970d15[m[33m ([m[1;33mtag: 202204.0-p2[m[33m)[m
+Merge: 09431e1bf 2a76767d5
+Author: Anton Smarovydlo <anton.smarovydlo@spryker.com>
+Date:   Mon Jul 4 11:42:05 2022 +0300
+
+    Merge pull request #140 from spryker-shop/202204.0-p2-release
+    
+    202204.0 p2 Release
+
+[33mcommit 2a76767d5cf37aa90919b0cd800180ead0f9497c[m
+Author: Anton Smarovydlo <anton.smarovydlo@spryker.com>
+Date:   Fri Jul 1 12:32:55 2022 +0300
+
+    Updated guzzle.
+
+[33mcommit c8b82cead73c00b3b8ff295185f8c9efa335f0dd[m
+Author: Anton Smarovydlo <anton.smarovydlo@spryker.com>
+Date:   Fri Jul 1 12:24:22 2022 +0300
+
+    Removed locked module versions.
+    Removed composer_back.json.
+    Fixed aliases.
+    Updated spryker/sales spryker-shop/wishlist-page.
+
+[33mcommit 00ad4b11a45eafd05840d6665c1ff0c575581e62[m
+Author: Dmitry Lymarenko <dmitry.lymarenko@spryker.com>
+Date:   Wed Jun 15 17:06:18 2022 +0300
+
+    Updated composer
+
+[33mcommit d87cb37cde5c4efc940d3672cfc75e4d975987ef[m
+Merge: 1918d3504 09bfca485
+Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+Date:   Wed Jun 15 13:18:22 2022 +0300
+
+    Merge pull request #143 from spryker-shop/guzzle-update
+    
+    Updated guzzle package version
+
+[33mcommit 09bfca48544bbb96e6aadbb45b1cb2c5f27c0806[m
+Author: Dmitry Lymarenko <dmitry.lymarenko@spryker.com>
+Date:   Wed Jun 15 12:53:46 2022 +0300
+
+    Updated guzzle package version
+
+[33mcommit 1918d3504545dc604b7692286af832c1337e2c2c[m
+Author: Dmitry Lymarenko <dmitry.lymarenko@spryker.com>
+Date:   Wed Jun 15 12:14:34 2022 +0300
+
+    Locked composer versions
+
+[33mcommit d6f12783455d6470cdcc937839b63785e426131b[m
+Merge: 3ee3ff7e5 091a3c44d
+Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+Date:   Tue Jun 14 10:13:33 2022 +0300
+
+    Merge pull request #134 from spryker-shop/feature/integration-m1-support
+    
+    SC-9436: Integration m1 support
+
+[33mcommit 3ee3ff7e5f5f64d48ca75c5c608ebdf1eae95966[m
+Merge: 5e99f93ef bcaa5c3b7
+Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+Date:   Thu Jun 9 18:51:11 2022 +0300
+
+    Merge pull request #141 from spryker-shop/bugfix/cc-16744-missing-swagger-reqest-param
+
+[33mcommit bcaa5c3b7281bc6d4f46145d1f9505c887b8af55[m
+Author: Dima Aseev <dmitriy.aseev@spryker.com>
+Date:   Thu Jun 9 17:42:46 2022 +0300
+
+    CC-16744: Adjusted composer files.
+
+[33mcommit 5e99f93ef0bb79c550859a3e202de29f8b410bf9[m
+Merge: 9189662f2 9e58b2e35
+Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+Date:   Thu Jun 9 11:38:39 2022 +0300
+
+    Merge pull request #137 from spryker-shop/acp-integrations-202204
+    
+    ACP changes and fixes after 202204 release
+
+[33mcommit 9189662f2b0bcad4370f99e4d6b4e46ca5ea2cb1[m
+Merge: b974d612a 4056d1a12
+Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+Date:   Thu Jun 9 10:48:12 2022 +0300
+
+    Merge pull request #139 from spryker-shop/bugfix/cc-16667-remuneration-amount
+    
+    Integrated reorder bugfix
+
+[33mcommit 4056d1a128689d0dc4fce46d4b028b6ac4f8c90a[m
+Author: Dmitry Lymarenko <dmitry.lymarenko@spryker.com>
+Date:   Wed Jun 8 16:25:06 2022 +0300
+
+    Integrated reorder bugfix
+
+[33mcommit 9e58b2e352510d413517c47237da1fe3c527ae39[m
+Author: Stanislav Matveyev <stanislav.matveyev@spryker.com>
+Date:   Wed Jun 8 16:06:35 2022 +0300
+
+    fixed markup in templates
+
+[33mcommit b974d612aa4711cabe21027981099f32edde1209[m
+Merge: 71ba98f52 0dd230783
+Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+Date:   Wed Jun 8 15:34:37 2022 +0300
+
+    Merge pull request #138 from spryker-shop/p2-integrations
+    
+    Bugfix integrations
+
+[33mcommit 0dd230783c55b9f705570e23d8e6f8af6c64120d[m
+Author: Dmitry Lymarenko <dmitry.lymarenko@spryker.com>
+Date:   Wed Jun 8 12:48:30 2022 +0300
+
+    Bugfix integrations
+
+[33mcommit b6fcf2d09c9aad10104ea5650d8d476807767bd5[m
+Author: Stanislav Matveyev <stanislav.matveyev@spryker.com>
+Date:   Tue Jun 7 17:56:40 2022 +0300
+
+    merged base branch
+
+[33mcommit 47dbf836bab097558fd35f67919049ffaa67d364[m
+Merge: 2954ad2bb 71ba98f52
+Author: Stanislav Matveyev <stanislav.matveyev@spryker.com>
+Date:   Tue Jun 7 17:55:11 2022 +0300
+
+    Merge remote-tracking branch 'origin/202204.0-p2-release' into acp-integrations-202204
+    
+    # Conflicts:
+    #       composer.lock
+
+[33mcommit 2954ad2bbc1eaef78b326d239463b77e43310304[m
+Author: Stanislav Matveyev <stanislav.matveyev@spryker.com>
+Date:   Tue Jun 7 16:56:07 2022 +0300
+
+    ACP changes and fixes after 202204 release
+
+[33mcommit 71ba98f52b87232300caac256418ab9088a5fb8b[m
+Merge: 618542b17 3161d3940
+Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+Date:   Tue Jun 7 13:05:34 2022 +0300
+
+    Merge pull request #136 from spryker-shop/bugfix/cc-16706-nested-relationships-for-includes
+    
+    CC-16706: Added support for nested relationships in swagger documentation.
+
+[33mcommit 3161d3940b96f8220483a7f1ba02bc68a1590102[m
+Author: Dima Aseev <dmitriy.aseev@spryker.com>
+Date:   Tue Jun 7 12:42:00 2022 +0300
+
+    CC-16706: Small adjustments to keep order of doc structure.
+
+[33mcommit 57dd43913f2c18a99cd69b288deaea84c819d68a[m
+Author: Dima Aseev <dmitriy.aseev@spryker.com>
+Date:   Tue Jun 7 11:40:16 2022 +0300
+
+    CC-16706: Integrated bugticket.
+
+[33mcommit 091a3c44d3891a2476b3cc6f39a908376e3f9c28[m
+Author: Filip Sushko <filip.sushko@spryker.com>
+Date:   Fri Jun 3 16:33:43 2022 +0200
+
+    updated docker hash
+
+[33mcommit 618542b1755d296b7ee13fa64e79a8e47b8679d6[m
+Merge: 09431e1bf dda06dea1
+Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+Date:   Thu Jun 2 18:06:46 2022 +0300
+
+    Merge pull request #135 from spryker-shop/guzzle-update
+    
+    Guzzle update
+
+[33mcommit dda06dea1e73c063cfd1e6861b60019ef71dbf26[m
+Author: Dmitry Lymarenko <dmitry.lymarenko@spryker.com>
+Date:   Thu Jun 2 17:12:03 2022 +0300
+
+    Composer update
+
+[33mcommit 9b96d3aad4af42ea8f0c0af7137ae6abe5cb1080[m
+Author: Filip Sushko <filip.sushko@spryker.com>
+Date:   Tue May 31 15:47:38 2022 +0200
+
+    Updated all deploy files
+
+[33mcommit 362401164f2404a5c1762a68015a1f44eb45a157[m
+Author: Filip Sushko <filip.sushko@spryker.com>
+Date:   Tue May 31 15:06:57 2022 +0200
+
+    Added csrf protection config
+
+[33mcommit cb8808042633f82fb19f56945ff7ed02f9f1ed0b[m
+Author: Filip Sushko <filip.sushko@spryker.com>
+Date:   Tue May 31 14:37:34 2022 +0200
+
+    Integrated m1 support and updated docker sdk hash
+
+[33mcommit 09431e1bff2ec7b1253277ca64dae7736eb49f7c[m[33m ([m[1;33mtag: 202204.0-p1[m[33m)[m
+Author: Anton Khabiuk <anton.khabiuk@spryker.com>
+Date:   Tue May 24 10:34:36 2022 +0300
+
+    Replaced deprecated CodeItNow module with BarcodeLaminas. (#131)
+
+[33mcommit 8d940dff249840286c24f49425f27743a2e95362[m[33m ([m[1;33mtag: 202204.0[m[33m)[m
+Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+Date:   Fri Apr 29 20:21:18 2022 +0300
+
+    Release 202204.0 (#123)
+    
+    * Merged internal demoshop
+    
+    * Composer.lock update
+    
+    * Fixed merging issues
+    
+    * Updated CI jobs to use php7.4
+    
+    * Fixed duplicating items
+    
+    * Squashed commit of the following:
+    
+    commit 2c32390d6351c218e28713373593345e2dc8485d
+    Author: Oleksandr Kiiashko <80702205+oleksander-kiiashko@users.noreply.github.com>
+    Date:   Fri Apr 22 21:36:15 2022 +0300
+    
+        APPS:3960 adjust twig templates for AOP (#1111)
+    
+        * APPS:2344:2345 adjusted twig templates
+    
+        * APPS:2344:2345 adjusted twig templates
+    
+        * APPS:3960 adjusted twig templates
+    
+        * APPS:3960 adjusted twig templates
+    
+    commit 320678fd3b76e14da8138c46c155baa0191cc64a
+    Merge: d8c7e720a9 9eb5e23a78
+    Author: Dmitry Lymarenko <dmitry.lymarenko@spryker.com>
+    Date:   Fri Apr 22 15:54:03 2022 +0300
+    
+        Merge branch 'master' into 202204.0-release-testing
+    
+    commit 9eb5e23a7803fb52d2e87d67ec5a548ae5e67766
+    Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+    Date:   Fri Apr 22 15:50:58 2022 +0300
+    
+        Locked phpstan version (#1113)
+    
+    commit feff6e2534a04697d92ce8c3357aa1f37e0a9866
+    Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+    Date:   Fri Apr 22 14:57:16 2022 +0300
+    
+        Updated copmposer (#1112)
+    
+    commit 44ecf7e6f607a6cddaffa53f7f047fc1959181d3
+    Author: Dmitriy Aseev <32021063+dmiseev@users.noreply.github.com>
+    Date:   Fri Apr 22 09:02:39 2022 +0300
+    
+        TE-16635: Adjusted product volume-price import files. (#1110)
+    
+        * TE-16635: Adjusted import files.
+    
+        * TE-16635: Adjusted import files.
+    
+    commit b0308f455827ba4319f54380568a7c605012a0cb
+    Author: Oleksandr Kiiashko <80702205+oleksander-kiiashko@users.noreply.github.com>
+    Date:   Wed Apr 20 13:07:55 2022 +0300
+    
+        APPS: 3915 AOP B2C inegration (#1103)
+    
+        * added cloud deploy file
+    
+        * updated cloud deploy file
+    
+        * Removing basic auth frontend-auth
+    
+        * added US store
+    
+        * updated deploy yml
+    
+        * added EU_US install script
+    
+        * added EU_US demodata import
+    
+        * Add price schedule for all stores and with correct end date
+    
+        * Fix volume prices
+    
+        * Make some products unavailable by default
+    
+        * Fix product quantity
+    
+        * Fix colors for products
+    
+        * removed us store from de_at cluster
+    
+        * added deploy.spryker-b2c-intts
+    
+        * removed _eu
+    
+        * removed _eu
+    
+        * OPS-2168 Updated configuration for staging.
+    
+        * Release branch updates (#1091)
+    
+        * CC-16542 Updated demodata for concrete product (#1087)
+    
+        * Changed quantity to 0 for concrete product with sku 107938 in import data
+    
+        Co-authored-by: andrew-pushkar <andrew-pushkar@bitbucket.com>
+    
+        * CC-16533 Added check for empty discount priority value in data import. (#1085)
+    
+        * CC-16533 Added check for empty discount priority value in data import.
+    
+        * CC-16533 Updated condition.
+    
+        Co-authored-by: Andrii Pushkar <zingeon1@gmail.com>
+        Co-authored-by: andrew-pushkar <andrew-pushkar@bitbucket.com>
+        Co-authored-by: Roman Havrylko <70894038+romanhavrylko@users.noreply.github.com>
+    
+        * create deploy.spryker-b2csec.yml
+    
+        * APPS:3915 move project files from suite-nonsplit
+    
+        * APPS:3915 composer update
+    
+        * APPS:3915 adjusted payment.twig
+    
+        * APPS:3915 style fixes
+    
+        * APPS:3915 style fixes
+    
+        * APPS:3915 fixed data import
+    
+        * APPS:3915 changed back product_abstract.csv
+    
+        * APPS:3915 fixed data import
+    
+        * APPS:3915 fixed config and tests
+    
+        * APPS:3915 fixed security problems
+    
+        * APPS:3915 fixed CR comments
+    
+        * APPS:3915 fixed CR comments
+    
+        * APPS:3915 fixed tests
+    
+        * APPS:3915 removed redundunt classes
+    
+        * APPS:3915 added upcs to data import
+    
+        * APPS:3915 removed new upcs from  data import
+    
+        * APPS:3915 add upcs to product_abstract.csv data import
+    
+        * APPS:3915 removed all upcs
+    
+        * APPS:3915 composer update
+    
+        * APPS:3915 composer update with locked versions
+    
+        * APPS:3915 composer update with locked versions for require-dev
+    
+        * APPS:3915 moved new packages from require to require-dev
+    
+        * APPS:3915 added new packages to require
+    
+        * APPS:3915 removed spryker-shop/payment-page from require
+    
+        * APPS:3915 sort composer alphabetically
+    
+        * APPS:3915 sort composer alphabetically
+    
+        Co-authored-by: Eugene Chernyi <eugene.chernyi@spryker.com>
+        Co-authored-by: iddqd388 <34138521+iddqd388@users.noreply.github.com>
+        Co-authored-by: Roman Havrylko <roman.havrylko@spryker.com>
+        Co-authored-by: Jeremy Fourna <jeremyfourna@hey.com>
+        Co-authored-by: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+        Co-authored-by: Andrii Pushkar <zingeon1@gmail.com>
+        Co-authored-by: andrew-pushkar <andrew-pushkar@bitbucket.com>
+        Co-authored-by: Roman Havrylko <70894038+romanhavrylko@users.noreply.github.com>
+        Co-authored-by: Stanislav Russu <stanislavrussu@Stanislav-Russu.local>
+    
+    commit 0d94c27d1a18609311f3a2dd11fc1edb2c1f7301
+    Author: Dmitriy Aseev <32021063+dmiseev@users.noreply.github.com>
+    Date:   Tue Apr 19 11:55:14 2022 +0300
+    
+        TE-10988: Replaced static URL sign secret with ENV key. (#1101)
+    
+        * TE-10988: Integrated bug-ticket.
+    
+        * TE-10988: Updated composer.lock after merging.
+    
+    commit 9688bfd10158e55228688b8e9f265f00cafb6400
+    Author: Anton Smarovydlo <anton.smarovydlo@spryker.com>
+    Date:   Tue Apr 19 11:03:48 2022 +0300
+    
+        Locked module versions. (#1106)
+    
+        * Updated feature versions.
+    
+        * Locked module versions.
+    
+        * Updated flysystem to the latest majors.
+    
+        * Fixed dependencies.
+    
+        * Updated flysystem.
+    
+        * Updated flysystem.
+    
+        * Rise composer module versions.
+    
+        * Fixed acceptance tests.
+    
+        * Fixed composer.
+    
+        * Updated docker version.
+    
+        * Added URI_SIGNER_SECRET_KEY configuration.
+    
+        * Updated module versions.
+    
+    commit 5c9085825ccb20353c7170bfaf63fe8806e7831e
+    Author: Eugenia Poidenko <eugenia.poidenko@gmail.com>
+    Date:   Mon Apr 18 16:32:58 2022 +0300
+    
+        TE-9191 Dependency Upgrades (#1102)
+    
+        * TE-9892 updated the remaining dependencies.
+    
+        * TE-9892 required flysystem.
+    
+    commit 4f361c0d98e8c5936e02b22fdd40f64eedae20f5
+    Author: Andrii Pushkar <zingeon1@gmail.com>
+    Date:   Fri Apr 15 16:42:53 2022 +0300
+    
+        CC-16493 Fixed query for assigning/unassigning  products to the SALE label (#1084)
+    
+        * CC-16493 SALE Product Label is not working
+        * Adjusted `ExampleProductSalePageQueryContainer:queryRelationsBecomingInactive()` so it queries right abstract products to unassign SALE label from them.
+        * Adjusted `ExampleProductSalePageQueryContainer:queryRelationsBecomingActive()` so it queries right abstract products to assign SALE label to them.
+        * Added new parameters `$currentStoreId` and `$currentCurrencyId` to `ExampleProductSalePageQueryContainerInterface:queryRelationsBecomingActive()` to query abstract products related only to the current store and currency.
+        * Added `CurrencyFacadeInterface` to dependencies.
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Reverted the type changes for ExampleProductSalePageQueryContainer::queryRelationsBecomingActive()
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Fixed query for assigning products to the SALE label
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Tiny fixes according to CR comments
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Fixed query
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Added condition to the query considering the price mode
+        * Fixed query
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Tiny PR fixes
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Tiny PR fixes
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Tiny PR fixes
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Tiny PR fixes
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Tiny PR fixes
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Tiny PR fixes
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Added condition for unassign SALE label when origin and default prices are the same.
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Resolved conflicts
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Tiny PR fixes
+    
+        * CC-16493 Fixed query for assigning/unassigning products to the SALE label
+        * Tiny CS fixes
+    
+        Co-authored-by: andrew-pushkar <andrew-pushkar@bitbucket.com>
+    
+    commit 1d1b32ddaaa4dc00c1c4202edeb53540c648eea7
+    Author: Alexander Kovtun <97117772+KoalaAlexanderKovtun@users.noreply.github.com>
+    Date:   Fri Apr 15 15:24:07 2022 +0300
+    
+        CC-16563: added event to dependency provider (#1093)
+    
+    commit 840727c3bfad62ded900d4628aa995fd41d20350
+    Author: Andrey Maslov <37797323+andrew-maslov@users.noreply.github.com>
+    Date:   Thu Apr 14 09:50:04 2022 +0300
+    
+        SUPESC-461 Replaced node-sass to dart sass (#1096)
+    
+        * SUPESC-461: Replaced node-sass to dart sass
+    
+        * SUPESC-461: Reverted update for `lodash-es`
+    
+    commit 8ab6f16c9ff8bd897185dff940ed619352a4902f
+    Author: Artem Stromets <astromets@gmail.com>
+    Date:   Thu Apr 14 08:48:00 2022 +0200
+    
+        PPLUS-879: B2C is compliant with BE upgradability checks (minor+patches) (#1099)
+    
+        * PPLUS-879: NotUnique:Constant & NotUnique:Method
+    
+        * PPLUS-879: NotUnique:Constant & NotUnique:Method
+    
+        * PPLUS-879: NotUnique:Constant & NotUnique:Method / fix
+    
+        * PPLUS-879: NotUnique:TransferName & NotUnique:TransferProperty
+    
+        * PPLUS-879: NotUnique:Constant & NotUnique:Method / fix
+    
+        * PPLUS-879: NotUnique:Method
+    
+        * PPLUS-879: Added code complacence checks to Travis
+    
+        * PPLUS-879: PrivateApi:Extension ProductReviewForm
+    
+        * PPLUS-879: Extends functional provider
+    
+        * PPLUS-879: Private Api:Dependency Usage widgets and form fixed
+    
+        * PPLUS-879: Private Api:Dependency Usage in ProductStorage fixed
+    
+        * PPLUS-879: Private Api:Dependency moved SCO fix
+    
+        * PPLUS-879: Updated travis job
+    
+        * PPLUS-879: Reverted Dependency providers to previous format
+    
+        * PPLUS-879: Removed uses from project level
+    
+        * PPLUS-879: Renamed method to updatePyzItemState
+    
+        * PPLUS-879: moved getPyzProductReviewFormData to project level
+    
+        * PPLUS-879: Reverted DB column name where DB Table has Pyz prefix
+    
+        * Update .travis.yml
+    
+        * PPLUS-879: Reverted TransferProperty name
+    
+        * PPLUS-879: Review update
+    
+        * PPLUS-879: Updated guzzlehttp/psr7
+    
+        * PPLUS-879: Updated SubmitController
+    
+        * PPLUS-879: Include Rabbit fix for QA
+    
+        * PPLUS-879: Deleted LocaleCmsPageData from project level
+    
+        * PPLUS-879: Updated spryker/cms-content-widget
+    
+        * PPLUS-879: Moved method getPyzProductReviewFormData on project level
+    
+        * PPLUS-879: Review fixes
+    
+        * PPLUS-879: Review fixes
+    
+        * PPLUS-879: Review fixes
+    
+        * PPLUS-879: Review fixes (second round)
+    
+        * PPLUS-879: Review fixes (second round)
+    
+        * PPLUS-879: Review fixes (upgrda spryker-sdk to 0.4.0)
+    
+        * fix composer.lock
+    
+        * Revert "fix composer.lock"
+    
+        This reverts commit c7c3b0e1adf9ca6d4f14327c5988b884b2f3667d.
+    
+        * revert spryker-sdk/phpstan-spryker and update spryker/cms-content-widget
+    
+        * update to spryker-sdk/phpstan-spryker:^0.4.0
+    
+        * fix Upgradability memory issue and displaying errors
+    
+        * update spryker/configurable-bundle-data-import
+    
+        * PPLUS-879 Updated composer
+    
+        Co-authored-by: v.strelchenko <v.strelchenko@gamingtec.com>
+        Co-authored-by: Aleksandr Myrnyi <oleksandr.myrnyi@spryker.com>
+        Co-authored-by: Dmitry Lymarenko <dmitry.lymarenko@spryker.com>
+    
+    commit 3bc448cdd6bd9df659533197912ecc1f2753467a
+    Merge: 75c2ecd5de 5d310e0388
+    Author: Dmitriy Krainiy <dmitriy.krainiy@spryker.com>
+    Date:   Wed Apr 13 11:56:24 2022 +0300
+    
+        Merge pull request #1098 from spryker/bugfix/te-10990-replace-static-url-env-secret-with-env-key-integration
+    
+        TE-10990 Integrated replaced static URL sign secret with ENV key.
+    
+    commit d8c7e720a99e91509081ac1af9551844283abb9a
+    Author: Stanislav Russu <stanislavrussu@Stanislav-Russu.local>
+    Date:   Tue Apr 12 18:10:23 2022 +0300
+    
+        create deploy.spryker-b2csec.yml
+    
+    commit 5d310e0388f5985dad67d379fc7bb81b74aeae1d
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Mon Apr 11 19:01:13 2022 +0300
+    
+        TE-10990 Integrated replaced static URL sign secret with ENV key.
+    
+    commit 75c2ecd5de1320c3bfb3baf759f67b6735656293
+    Merge: 24dbe46ad9 f5d3939f62
+    Author: Florian Krämer <4996022+floriankraemer@users.noreply.github.com>
+    Date:   Fri Apr 8 13:14:43 2022 +0200
+    
+        CC-16506 Integrated configurable bundle carts API.
+    
+        CC-16506 Integrated configurable bundle carts API.
+    
+    commit 24dbe46ad9fe829762a9ed74e1d31c8805803de4
+    Author: Andrey Maslov <37797323+andrew-maslov@users.noreply.github.com>
+    Date:   Fri Apr 8 13:38:53 2022 +0300
+    
+        CC-16580: Introduced css classes for colors in the lower case (#1095)
+    
+    commit f5d3939f6219d47175502d3a8f791c3ae9111649
+    Merge: ced76019f7 56caabccde
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Fri Apr 8 13:32:16 2022 +0300
+    
+        CC-16506 Merged master branch.
+    
+    commit 56caabccdec0842d6bbe91d46d683594898f6ba3
+    Author: Dmitriy Aseev <32021063+dmiseev@users.noreply.github.com>
+    Date:   Tue Apr 5 18:37:29 2022 +0300
+    
+        CC-14879: Integrated fixed bug. (#1088)
+    
+    commit 45e71265b338ee15365492e0eccc00b49f362021
+    Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+    Date:   Tue Apr 5 11:39:21 2022 +0300
+    
+        Release branch updates (#1091)
+    
+        * CC-16542 Updated demodata for concrete product (#1087)
+    
+        * Changed quantity to 0 for concrete product with sku 107938 in import data
+    
+        Co-authored-by: andrew-pushkar <andrew-pushkar@bitbucket.com>
+    
+        * CC-16533 Added check for empty discount priority value in data import. (#1085)
+    
+        * CC-16533 Added check for empty discount priority value in data import.
+    
+        * CC-16533 Updated condition.
+    
+        Co-authored-by: Andrii Pushkar <zingeon1@gmail.com>
+        Co-authored-by: andrew-pushkar <andrew-pushkar@bitbucket.com>
+        Co-authored-by: Roman Havrylko <70894038+romanhavrylko@users.noreply.github.com>
+    
+    commit 35681340e9739a9088b64d2e04c1fe8af42105a9
+    Author: Roman Havrylko <70894038+romanhavrylko@users.noreply.github.com>
+    Date:   Tue Apr 5 10:53:33 2022 +0300
+    
+        CC-16533 Added check for empty discount priority value in data import. (#1085)
+    
+        * CC-16533 Added check for empty discount priority value in data import.
+    
+        * CC-16533 Updated condition.
+    
+    commit ced76019f7213d96856b99022b17bd4ecb65843d
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Fri Apr 1 19:58:34 2022 +0300
+    
+        CC-16506 Integrated configurable bundle carts API.
+    
+    commit d6d8e91326bd7e3dd7cc196bf96f9a1346ab4855
+    Author: Andrii Pushkar <zingeon1@gmail.com>
+    Date:   Thu Mar 31 14:42:28 2022 +0300
+    
+        CC-16542 Updated demodata for concrete product (#1087)
+    
+        * Changed quantity to 0 for concrete product with sku 107938 in import data
+    
+        Co-authored-by: andrew-pushkar <andrew-pushkar@bitbucket.com>
+    
+    commit 2e1de6ab0cacea8c263e60b2a42e40f5d8f0777c
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Mon Mar 28 15:19:09 2022 +0300
+    
+        OPS-2168 Updated configuration for staging.
+    
+    commit ea019581f4d0dc4a46ffbb9a356e31246bfec1b9
+    Author: Eugene Chernyi <eugene.chernyi@spryker.com>
+    Date:   Fri Mar 25 12:21:12 2022 +0200
+    
+        removed _eu
+    
+    commit dc72258dadd4c122589656ffa1bf1858dcb5fe97
+    Author: Eugene Chernyi <eugene.chernyi@spryker.com>
+    Date:   Fri Mar 25 11:53:42 2022 +0200
+    
+        removed _eu
+    
+    commit 52c4dddd9315841780b329e93f77babd3623c298
+    Author: Eugene Chernyi <eugene.chernyi@spryker.com>
+    Date:   Fri Mar 25 11:21:49 2022 +0200
+    
+        added deploy.spryker-b2c-intts
+    
+    commit 3c4547b1f3714af20a48a74ea747b279582581b7
+    Merge: 7748ee17ae 86ad1face1
+    Author: Eugene Chernyi <eugene.chernyi@spryker.com>
+    Date:   Thu Mar 24 11:52:53 2022 +0200
+    
+        Merge branch '202204.0-release-testing' of github.com:spryker/b2c-demo-shop-internal into 202204.0-release-testing
+    
+    commit 7748ee17aef64b35f3f49b1b1cc85d6722ac60f4
+    Author: Eugene Chernyi <eugene.chernyi@spryker.com>
+    Date:   Thu Mar 24 09:59:10 2022 +0200
+    
+        removed us store from de_at cluster
+    
+    commit 86ad1face1f48800a280e40960c3c49b827b9d2e
+    Author: Jeremy Fourna <jeremyfourna@hey.com>
+    Date:   Fri Mar 18 16:19:18 2022 +0100
+    
+        Fix colors for products
+    
+    commit 947654352302597f923ae876189f2fcfe0cb0386
+    Author: Jeremy Fourna <jeremyfourna@hey.com>
+    Date:   Thu Mar 17 11:44:34 2022 +0100
+    
+        Fix product quantity
+    
+    commit 8351c31457da420ae013350392dcd8d88de780e7
+    Author: Jeremy Fourna <jeremyfourna@hey.com>
+    Date:   Thu Mar 17 11:38:22 2022 +0100
+    
+        Make some products unavailable by default
+    
+    commit ad745e63110315ebcb46c7f164bd366e19fbe196
+    Author: Jeremy Fourna <jeremyfourna@hey.com>
+    Date:   Thu Mar 17 11:16:43 2022 +0100
+    
+        Fix volume prices
+    
+    commit 4c0ba9c1bc0c277c8df2cd90f5c32c91fb25b16b
+    Author: Jeremy Fourna <jeremyfourna@hey.com>
+    Date:   Thu Mar 17 10:08:43 2022 +0100
+    
+        Add price schedule for all stores and with correct end date
+    
+    commit 57ab4e714333acc08d4891ef5bdd8d6e1877796a
+    Merge: 5efa38a736 1a40fc8afe
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Wed Mar 16 10:55:35 2022 +0200
+    
+        Merge remote-tracking branch 'origin/master' into 202204.0-release-testing
+    
+    commit 1a40fc8afee67f1eb958175ff4b5215e97606083
+    Author: Jeremy Fourna <jeremyfourna@hey.com>
+    Date:   Wed Mar 16 09:51:15 2022 +0100
+    
+        Us demo data (#1075)
+    
+    commit 5efa38a73667b8e8018ccc977afa9bc834acb617
+    Author: Eugene Chernyi <eugene.chernyi@spryker.com>
+    Date:   Fri Mar 11 14:51:00 2022 +0200
+    
+        added EU_US demodata import
+    
+    commit 77c453d2720e0ac3d568b04275dbe4684057d38f
+    Author: Eugene Chernyi <eugene.chernyi@spryker.com>
+    Date:   Fri Mar 11 11:31:03 2022 +0200
+    
+        added EU_US install script
+    
+    commit 4d8dd479cd8fbc19f66a68e81cedcdf047e71e20
+    Author: Eugene Chernyi <eugene.chernyi@spryker.com>
+    Date:   Fri Mar 11 09:22:56 2022 +0200
+    
+        updated deploy yml
+    
+    commit d7fda2a5208d9972ba89d7e93caa3c2e1548fe22
+    Author: Eugene Chernyi <eugene.chernyi@spryker.com>
+    Date:   Thu Mar 10 19:13:19 2022 +0200
+    
+        added US store
+    
+    commit 362d26f552cc9c6347881cc682c123c8dce1636b
+    Merge: ab06e0ec71 7751a4729c
+    Author: dmytro-sokolovskyi <79465867+dmytro-sokolovskyi@users.noreply.github.com>
+    Date:   Tue Mar 8 16:36:00 2022 +0000
+    
+        Merge pull request #1058 from spryker/feature/cc-15728-integration-discount-prioritization
+    
+        CC-15728 Integrated discounts related updates.
+    
+    commit 7751a4729ce2013dd0c6c1da61d1be6a70ebb270
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Mar 8 13:11:22 2022 +0200
+    
+        CC-15728 Updated Travis config.
+    
+    commit 42e8263aceaf2751359f38965d3916561b750531
+    Merge: fc5292c40f ab06e0ec71
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Mar 8 13:10:48 2022 +0200
+    
+        Merge remote-tracking branch 'origin/master' into feature/cc-15728-integration-discount-prioritization
+    
+    commit ab06e0ec71c73206262324a19e62a022f08ebd5c
+    Merge: 390d1da55b 7742194fab
+    Author: dmytro-sokolovskyi <79465867+dmytro-sokolovskyi@users.noreply.github.com>
+    Date:   Thu Mar 3 15:20:19 2022 +0200
+    
+        Merge pull request #1013 from spryker/feature/CC-13618/hide-empty-range-filers
+    
+        [CC-14436] B2C integration Empty range filters are not hidden
+    
+    commit fc5292c40f5417c8807b4aa125564b21f7194fd2
+    Merge: 3465ab34a2 390d1da55b
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Feb 22 11:52:39 2022 +0200
+    
+        CC-15728 Merged master branch.
+    
+    commit 390d1da55bcff9cda0e6c031a40154347c141497
+    Merge: b26f53715d 3423254a2d
+    Author: Serhii Chepela <serhii.chepela@spryker.com>
+    Date:   Tue Feb 22 11:11:39 2022 +0200
+    
+        Merge pull request #1065 from spryker/feature/te-10644/q1-product-release-integration
+    
+        TE-10644 Integration Spryker Plug & Play Infrastructure  and  PHP 8.0 follow ups
+    
+    commit b26f53715dde496699ccf1a46fbee0c9ed1a9fce
+    Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+    Date:   Mon Feb 21 15:26:26 2022 +0200
+    
+        CC-15920 README update (#1071)
+    
+    commit f33bcc940ea9f07384da9fe3ddbf7364fd3950f0
+    Author: iddqd388 <34138521+iddqd388@users.noreply.github.com>
+    Date:   Thu Feb 17 18:37:03 2022 +0200
+    
+        Removing basic auth frontend-auth
+    
+    commit 3465ab34a27b18a0cc0f6b3c5ea10559497de929
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Thu Feb 17 15:07:23 2022 +0200
+    
+        CC-15728 Updated promotion discount feature version.
+    
+    commit 887d63f003727787ec4c26520afb8c25e9d79779
+    Author: maslov <dev.maslov.a@gmail.com>
+    Date:   Tue Feb 15 12:46:51 2022 +0200
+    
+        CC-15728: Removed color selector
+    
+    commit 0233235765f5b6f97c8068bcd2834dfb7564f07f
+    Author: Eugene Chernyi <eugene.chernyi@spryker.com>
+    Date:   Mon Feb 14 17:33:17 2022 +0200
+    
+        updated cloud deploy file
+    
+    commit 3423254a2d379ebe9f45edc626458072ff03121a
+    Author: Svytoslav V <svytoslav.varpikhovsky@spryker.com>
+    Date:   Mon Feb 14 16:58:01 2022 +0200
+    
+        TE-10644 Removed debug information
+    
+    commit 6686819d1fe56847ee68595afc0367aba36f7174
+    Author: Svytoslav V <svytoslav.varpikhovsky@spryker.com>
+    Date:   Mon Feb 14 13:59:43 2022 +0200
+    
+        TE-10644 Fir travis build
+    
+    commit 73467514dbe5fd3a74106c01e6992df6392b78f1
+    Author: Eugene Chernyi <eugene.chernyi@spryker.com>
+    Date:   Mon Feb 14 10:52:21 2022 +0200
+    
+        added cloud deploy file
+    
+    commit 7742194fab1835dbd2f7b5ce4d2de42f2e9e2f55
+    Merge: afb131ca0f 130c7c2ad3
+    Author: maslov <dev.maslov.a@gmail.com>
+    Date:   Fri Feb 11 16:42:43 2022 +0200
+    
+        Merge remote-tracking branch 'origin/master' into feature/CC-13618/hide-empty-range-filers
+    
+    commit afb131ca0fb2f0f73739d9755b89dc4ecfce5273
+    Author: maslov <dev.maslov.a@gmail.com>
+    Date:   Fri Feb 11 16:41:37 2022 +0200
+    
+        CC-13618: Fixed code style according to CR
+    
+    commit fe252ba5472077c6ec6ee32af4ceb66d74ed4cda
+    Author: maslov <dev.maslov.a@gmail.com>
+    Date:   Thu Feb 10 17:29:41 2022 +0200
+    
+        CC-15728: Fixed styles according to CR
+    
+    commit 2adc4172c546971c5a24db40ea4237acaa2c0333
+    Author: maslov <dev.maslov.a@gmail.com>
+    Date:   Thu Feb 10 15:23:23 2022 +0200
+    
+        CC-15728: Fixed styles according to CR
+    
+    commit 426dd71141838889b23bdc92d2840f63e077f61b
+    Author: maslov <dev.maslov.a@gmail.com>
+    Date:   Thu Feb 10 14:40:19 2022 +0200
+    
+        CC-15728: Fixed styles according to CR
+    
+    commit 0f4a06880b4be2bbed9b9d22bee473393ac5303e
+    Author: maslov <dev.maslov.a@gmail.com>
+    Date:   Wed Feb 9 20:25:46 2022 +0200
+    
+        CC-15728: Integrated UI for discount products
+    
+    commit d35fbdcf86a46c560ef4adcca5be8c2af61c1352
+    Author: Svytoslav V <svytoslav.varpikhovsky@spryker.com>
+    Date:   Wed Feb 9 15:32:56 2022 +0200
+    
+        TE-10644 Fixed version in README
+    
+    commit 214195147aa4cb6f3f5ba59531b6b435eb16e9c6
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Wed Feb 9 15:08:09 2022 +0200
+    
+        CC-15728 Updated composer.lock.
+    
+    commit 674af48734686c83ece8ae0a5d15adf345eea995
+    Author: Svytoslav V <svytoslav.varpikhovsky@spryker.com>
+    Date:   Wed Feb 9 13:54:46 2022 +0200
+    
+        TE-10644 Trigger build
+    
+    commit 8f7016fe1239a300f631755cffb6830f73507308
+    Author: Svytoslav V <svytoslav.varpikhovsky@spryker.com>
+    Date:   Tue Feb 8 13:33:57 2022 +0200
+    
+        TE-10644 Integrate spryker-sdk integrator
+    
+    commit bae6b46e27f8ef0d8215bd89a2c3c8729cceea6f
+    Author: Svytoslav V <svytoslav.varpikhovsky@spryker.com>
+    Date:   Tue Feb 8 12:57:42 2022 +0200
+    
+        TE-10644 Integration TE-10646 and TE-10648
+    
+    commit 14127779d13b278a716ae5ffecbef091a43ac30f
+    Merge: 0b458084c6 130c7c2ad3
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Feb 8 12:30:18 2022 +0200
+    
+        CC-15728 Merged master branch.
+    
+    commit 130c7c2ad31c2a3dd3673037671ddbb61eeea969
+    Author: Anton Khabiuk <anton.khabiuk@spryker.com>
+    Date:   Thu Feb 3 10:20:51 2022 +0200
+    
+        CC-15121 Integrate plugin (#1062)
+    
+    commit 7d4cee0309c233451f33dc30bac0f1298c9e55fd
+    Author: Dmitriy Aseev <32021063+dmiseev@users.noreply.github.com>
+    Date:   Wed Feb 2 16:59:54 2022 +0200
+    
+        CC-11331: Fixed getting the customer's default shipping address. (#1056)
+    
+        * CC-11331: Integration for CC-11331: Security issue: Wrong behavior of Address::getDefaultShippingAddress().
+    
+    commit e67ab6016e04dafdcb37b8edcf989d61116b258b
+    Author: Ihor Herasimenko <81175258+herasimenko1987@users.noreply.github.com>
+    Date:   Wed Feb 2 09:56:13 2022 +0200
+    
+        SUPESC-433: Added the possibility to configure the error renderer for Glue. (#1017)
+    
+        * SUPESC-433: updated `spryker/error-handler` module version, added api error renderer to configuration.
+    
+    commit 873b504ac0685230ec3ef3552a4a3f544d1f4eaf
+    Author: Ihor Herasimenko <81175258+herasimenko1987@users.noreply.github.com>
+    Date:   Wed Feb 2 09:55:10 2022 +0200
+    
+        SUPESC-402: Fixed CORS Error when working with VUE and React Frontend. (#1004)
+    
+        * SUPESC-402: updated `spryker/glue-application` version, added `CorsValidateHttpRequestPlugin`.
+    
+    commit 0b458084c68e6005e83dee5dbdb6e5aa19d48481
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Feb 1 15:48:34 2022 +0200
+    
+        CC-15728 Integrated support multiple abstract products in discount promotional products.
+    
+    commit 68e1d2d345e2827440a4df699f8f516b6c6e8709
+    Author: Florian Krämer <4996022+floriankraemer@users.noreply.github.com>
+    Date:   Tue Feb 1 13:41:58 2022 +0100
+    
+        GLUE-11481 Adding secure Glue header plugins (#940)
+    
+    commit e445e1c8a5a592c50ccfe73068308949e9ed17d0
+    Merge: c9bde61254 ba16664e54
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Feb 1 14:40:45 2022 +0200
+    
+        Merge remote-tracking branch 'origin/master' into feature/cc-15728-integration-discount-prioritization
+    
+    commit 61da850829b9bf47b77037d797a3979a6a8f5a1b
+    Merge: cf9b62d586 ba16664e54
+    Author: Dmitry Lymarenko <dmitry.lymarenko@spryker.com>
+    Date:   Tue Feb 1 12:38:44 2022 +0200
+    
+        Merge branch 'master' into feature/CC-13618/hide-empty-range-filers
+    
+    commit ba16664e54b6e4ca0bdf79176ccf0808019f3b88
+    Author: Jeremy Fourna <jeremy.fourna@spryker.com>
+    Date:   Tue Feb 1 11:01:06 2022 +0100
+    
+        Update product_management_attribute.csv (#1054)
+    
+        Changed `Blootooth` attribute to `Bluetooth`.
+    
+    commit c9bde6125461c6fe6de5256cbf0de452ff95ac4a
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Mon Jan 31 13:07:18 2022 +0200
+    
+        CC-15728 Fixed Travis issues.
+    
+    commit 23d8b76cc478e41fa94afef49cc19ce0d2a733f9
+    Merge: 597e9eb1c4 359c4fa4df
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Mon Jan 31 12:16:24 2022 +0200
+    
+        CC-15728 Merged master branch.
+    
+    commit 597e9eb1c496c373420027958d1e88d15edd3769
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Mon Jan 31 12:04:35 2022 +0200
+    
+        CC-15728 Updated dependencies.
+    
+    commit 359c4fa4df67b1831c5bd16d3b663f20f2bc8df8
+    Merge: f21cd6143f 5173c39c4b
+    Author: Dmitry Lymarenko <37305577+DmitryLymarenko@users.noreply.github.com>
+    Date:   Mon Jan 31 10:39:38 2022 +0200
+    
+        Merge pull request #1059 from spryker/feature/cc-14427-api-minimum-order-value-support
+    
+        CC-14427: API: Min/Soft/Max Threshold support.
+    
+    commit 1993a43c08a9e4229e15d8f4553d35f2bf535d8e
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Mon Jan 31 10:20:53 2022 +0200
+    
+        CC-15728 Fixed Travis issues.
+    
+    commit 759c880c2d730073b2274734ab42fd4d25d3f123
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Fri Jan 28 18:52:31 2022 +0200
+    
+        CC-15728 Updated composer.lock.
+    
+    commit 69556cbe9251fc7c2d1cd2b6fa9295f6302b955d
+    Merge: a4b8b2ad96 f21cd6143f
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Fri Jan 28 18:41:40 2022 +0200
+    
+        CC-15728 Merged master branch.
+    
+    commit 5173c39c4b1aba639384ccbcd093240eae6d4e45
+    Merge: 2bc3d80d6e f21cd6143f
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Wed Jan 26 21:36:24 2022 +0200
+    
+        Merge branch 'master' into feature/cc-14427-api-minimum-order-value-support
+    
+    commit f21cd6143fee6bf0a48f51a2ec7c27cf7ab840e9
+    Merge: c61fc98fe2 0b9867b5b1
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Fri Jan 21 16:54:02 2022 +0200
+    
+        Merge pull request #1060 from spryker/bugfix/make-travis-green
+    
+        Make Travis green.
+    
+    commit 0b9867b5b1095854a7d0221cfe36a0154ca710a5
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Fri Jan 21 15:44:21 2022 +0200
+    
+        Fixed phpstan issues.
+    
+    commit e4875deaee237667ae8fe1680b3a31170c0117ea
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Fri Jan 21 12:35:52 2022 +0200
+    
+        Fixed phpstan issues.
+    
+    commit deefb7c956b6769cc97fd60e8242f4dde4b5540f
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Fri Jan 21 11:11:06 2022 +0200
+    
+        Fixed phpstan issues.
+    
+    commit bf1b7022fc1a56cdad9709607f14b1f4179e805e
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Fri Jan 21 10:57:54 2022 +0200
+    
+        Fixed phpstan issues.
+    
+    commit f16441231c2d800fb928c7415f1426657b919519
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 15:23:46 2022 +0200
+    
+        Fixed phpstan issues.
+    
+    commit 9524223fc912fe358b139ff4a7307196d5ebf788
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 14:38:39 2022 +0200
+    
+        Adjusted travis check.
+    
+    commit 74d92856af69af54bdf4458841c615c3224c4f1e
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 14:22:00 2022 +0200
+    
+        Adjusted travis check.
+    
+    commit 618b7e278b0eda11d57c90f796b5cb1da9912c9b
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 14:01:23 2022 +0200
+    
+        Adjusted travis check.
+    
+    commit 746d220ff0cce8b7d4144aa6621758c11b90ba47
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 13:33:34 2022 +0200
+    
+        Adjusted travis check.
+    
+    commit fad1981aad6bf0c8933fbfee81f8678deb64b090
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 13:21:07 2022 +0200
+    
+        Adjusted travis check.
+    
+    commit fe8682790b794a06d5485623b4b65166b15ddf05
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 13:15:56 2022 +0200
+    
+        Adjusted travis check.
+    
+    commit f89b9471f9c04d4b74248252e82ecd4ec9776bc7
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 13:00:08 2022 +0200
+    
+        Adjusted travis check.
+    
+    commit 1fc9ed1a2483315d769c774555139f302474ec5d
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 12:46:27 2022 +0200
+    
+        Adjusted travis check.
+    
+    commit 292afbf5aea282cf3e9b1f5d049f4d19c52ec6a1
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 11:32:15 2022 +0200
+    
+        Adjusted travis check.
+    
+    commit 5dd90b75a29974a568b022363a712c7592da74c2
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 11:08:15 2022 +0200
+    
+        Adjusted travis check.
+    
+    commit 662735b38655e751ab1ffd3e202124fa33107fe7
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 10:41:52 2022 +0200
+    
+        Adjusted travis check.
+    
+    commit 8c0c9004dd36fff8d3cace34dec9c32f31c91953
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Thu Jan 20 10:39:15 2022 +0200
+    
+        Adjusted travis check.
+    
+    commit a4b8b2ad960bff1616fb6c2ed4cf778568695158
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Wed Jan 19 18:24:33 2022 +0200
+    
+        CC-15728 Added return types.
+    
+    commit eebe6881d6b3dc4859a5746a8cdb9a93b01bdaa3
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Wed Jan 19 17:42:14 2022 +0200
+    
+        CC-15728 Added return types.
+    
+    commit a4a25b2cde0eb890d765c6434ae01bfb0196f713
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Wed Jan 19 13:02:54 2022 +0200
+    
+        CC-15728 Fixed Travis issues.
+    
+    commit b2f0fb30e551e012d0d052dca11b51f4b3284cb4
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Jan 18 19:16:59 2022 +0200
+    
+        CC-15728 Integrated discount related functionality.
+    
+    commit 2bc3d80d6ef10b5087eb016e06915cedd5eeb590
+    Author: Dmitriy Aseev <dmiseev@gmail.com>
+    Date:   Tue Jan 18 13:59:55 2022 +0200
+    
+        CC-15875: Provided integration for CC-14427.
+    
+    commit 40858131bd826d34aff9d3747c313682dbca7dc9
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Mon Jan 17 16:35:51 2022 +0200
+    
+        CC-15728 Integrated discounts prioritization.
+    
+    commit c61fc98fe2eb69a7e7fe26b00a4c8d55b0d0be14
+    Merge: ae5617a347 4eb0963dda
+    Author: Serhii Chepela <serhii.chepela@spryker.com>
+    Date:   Fri Dec 17 11:06:03 2021 +0200
+    
+        Merge pull request #1055 from spryker/bugfix/te-10390-security-job
+    
+        TE-10390 Fixed security job for travis
+    
+    commit 4eb0963ddab13f6df03ec904fe989277a18416ff
+    Author: dima_tsemma <dmitry.tsemma@spryker.com>
+    Date:   Thu Dec 16 16:00:30 2021 +0200
+    
+        TE-10390: fixed security job for travis
+    
+    commit ae5617a347b2d2a68ab0828fe0a5693dc2b1556c
+    Merge: 7510a25469 69d8974222
+    Author: Serhii Chepela <serhii.chepela@spryker.com>
+    Date:   Wed Dec 15 18:37:29 2021 +0200
+    
+        Merge pull request #1053 from spryker/bugfix/te-10281-deploy-files
+    
+        TE-10281 Updated deploy files
+    
+    commit 69d89742229d7f0d2f6afcbbc8895b09100d0e69
+    Author: dima_tsemma <dmitry.tsemma@spryker.com>
+    Date:   Wed Dec 15 14:22:50 2021 +0200
+    
+        TE-10281: Updated deploy files
+    
+    commit ef8ff1226fdde2fdcb18dca589a06dd8f18cc32d
+    Author: dima_tsemma <dmitry.tsemma@spryker.com>
+    Date:   Tue Dec 14 19:22:19 2021 +0200
+    
+        TE-10281: Updated deploy files
+    
+    commit d9730d92890aacc82ba686d7f1f9d57ec9482407
+    Author: dima_tsemma <dmitry.tsemma@spryker.com>
+    Date:   Wed Dec 8 14:15:04 2021 +0200
+    
+        TE-10281: Updated deploy files
+    
+    commit 4fff4d384f0b2a55bba1a4971211b67f94661460
+    Author: dima_tsemma <dmitry.tsemma@spryker.com>
+    Date:   Thu Dec 2 12:49:39 2021 +0200
+    
+        TE-10281: Updated deploy files
+    
+    commit 7510a254697aa59199ef565b78788b43adbe0773
+    Merge: d5d765309e df4af21b05
+    Author: Serhii Chepela <serhii.chepela@spryker.com>
+    Date:   Fri Nov 19 10:26:23 2021 +0200
+    
+        Merge pull request #1048 from spryker/feature/te-9602/te-10188-upgrade-php-version-to-74
+    
+        TE-10189 Updated PHP version to 7.4
+    
+    commit d5d765309ee8ba88e5ef398f3c8c1356b4cd5537
+    Merge: 8d4377df12 50a08eea1b
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Mon Nov 15 16:15:25 2021 +0200
+    
+        Merge pull request #982 from spryker/bugfix/cc-13799-configurable-bundle-split-delivery-issue
+    
+        CC-13799 Fixed configurable bundle split delivery issue
+    
+    commit df4af21b05f72b48dbd844172f0fa455584b4cb9
+    Author: Yaroslav Krutikov <yaroslav.krutikov@spryker.com>
+    Date:   Tue Nov 9 18:03:58 2021 +0200
+    
+        TE-10188 Delay to wait a page in ProductRelationCreateRelationCest
+    
+    commit 22434d3a654cbd78ceb45a626b6dc1893b1433b1
+    Author: Yaroslav Krutikov <yaroslav.krutikov@spryker.com>
+    Date:   Tue Nov 9 17:08:26 2021 +0200
+    
+        TE-10188 Revome PHP 7.3 from checks
+    
+    commit 00601bc2d9250cd2ff61d7de2c7d23838003dd85
+    Author: Yaroslav Krutikov <yaroslav.krutikov@spryker.com>
+    Date:   Mon Nov 8 21:38:29 2021 +0200
+    
+        TE-10188 Updated PHP version to 7.4
+    
+    commit 8d4377df12886d1d72c2e3219d17a20623202023
+    Merge: 9f6a8ebd8f 538d0d22be
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Tue Oct 12 13:04:24 2021 +0300
+    
+        Merge pull request #1022 from spryker/bugfix/cc-14625-performance-guidelines
+    
+        CC-14625 Added missed configs.
+    
+    commit 538d0d22be6acfb336ae935de2fee2d4ae2d05d6
+    Merge: e806c0974f 9f6a8ebd8f
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Oct 12 11:24:41 2021 +0300
+    
+        CC-14625 Merged master branch.
+    
+    commit 9f6a8ebd8f3cc9a11e9e4522eae2a75dae8d07d6
+    Merge: 3931340330 05482186fb
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Tue Oct 12 10:49:31 2021 +0300
+    
+        Merge pull request #1005 from spryker/bugfix/cc-14025-is-returnable-checkbox-is-duplicated
+    
+        CC-14025: fixed checkboxes on the create return page
+    
+    commit 3931340330f3eeda8f0d875af344bfb8c5bd1bec
+    Merge: 4362f71d1a 155619e703
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Thu Oct 7 10:10:42 2021 +0300
+    
+        Merge pull request #1045 from spryker/202108.0-release
+    
+        202108.0 Release up merge
+    
+    commit e806c0974fdb7fe4bc7de9bbebc07f79eb6d3ab6
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Oct 5 11:12:37 2021 +0300
+    
+        CC-14625 Updated lcobucci/jwt due to security issues.
+    
+    commit 07c4be5ad7610adbea9b91f45ed2c19ddf213c9d
+    Merge: e8e3ea63c3 4362f71d1a
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Oct 5 11:08:48 2021 +0300
+    
+        Merge remote-tracking branch 'origin/master' into bugfix/cc-14625-performance-guidelines
+    
+    commit 155619e7035bffe3ab6b8c152b0bb366c02d1681
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Oct 5 11:06:14 2021 +0300
+    
+        CC-14673 Updated lcobucci/jwt due to security issues.
+    
+    commit e8e3ea63c315a4c0a06f101fc1d5011be2e647ab
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Thu Sep 30 10:16:21 2021 +0300
+    
+        CC-14625 Removed development config.
+    
+    commit 902ceb481b65bbccd65b15246a9fdb2062824e18
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Thu Sep 30 09:55:23 2021 +0300
+    
+        CC-14673 Moved integrator to dev dependencies.
+    
+    commit 72cdee933c9040426fca5f5b88444be95bad3e27
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Sep 28 14:21:25 2021 +0300
+    
+        CC-14637 Travis fixes.
+    
+    commit 572f48c50dcdc735e873e340aa793f0ee429dc70
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Tue Sep 28 10:22:11 2021 +0300
+    
+        CC-14673 Added integrator package.
+    
+    commit cfcfaac97ef99f10957ef56da0a95dca2335d11d
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Mon Sep 27 18:15:43 2021 +0300
+    
+        CC-14673 Fixed comments.
+    
+    commit 6a334e6bfd2152e8bb99bb3909989376a805b425
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Mon Sep 27 18:10:45 2021 +0300
+    
+        CC-14637 Moved integrator to dependencies.
+    
+    commit 09b8739180572668a8b280f2526ba47e2e0cc971
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Mon Sep 27 17:54:48 2021 +0300
+    
+        CC-14637 Fixed comments.
+    
+    commit dd892619ce43a04e54407c1bdc52774fb39a0045
+    Merge: 8114d25914 4362f71d1a
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Fri Sep 24 17:59:56 2021 +0300
+    
+        Merge remote-tracking branch 'origin/master' into 202108.0-release
+    
+    commit 8114d259142b3aed93d855e20611e732773fba37
+    Merge: a3acf0a7a2 262db3a7c8
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Fri Sep 24 17:59:26 2021 +0300
+    
+        CC-14673 App merge.
+    
+    commit 4362f71d1a600a92363252433ce8e2a561633573
+    Merge: 262db3a7c8 5a845934c8
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Fri Sep 24 17:49:25 2021 +0300
+    
+        Merge pull request #1030 from spryker/bugfix/faas-500-docker-fix-in-ci
+    
+        FAAS-500: Fix for a docker in CI.
+    
+    commit 5a845934c87c88b88bf73c4c28942b53b489ae17
+    Author: denys.sokolov <denys.sokolov@spryker.com>
+    Date:   Fri Sep 24 16:35:30 2021 +0300
+    
+        FAAS-500: Changed the docker configuration for all travis jobs.
+    
+    commit e9d9f79a3f4177acd27cfd4bd15973885b4c7132
+    Author: denys.sokolov <denys.sokolov@spryker.com>
+    Date:   Fri Sep 24 16:20:45 2021 +0300
+    
+        FAAS-500: Disabled `ipv6` and increased `mtu` for docker containers.
+    
+    commit 262db3a7c8a22bd3929e610f80c1d3fc960fe0c1
+    Merge: 15724ce1c4 7eb563e72b
+    Author: Serhii Chepela <serhii.chepela@spryker.com>
+    Date:   Fri Sep 17 19:59:22 2021 +0300
+    
+        Merge pull request #1018 from spryker/feature/te-9191/integration-into-b2c-part1
+    
+        TE-9191 Integration
+    
+    commit cbe314b2596debf4cb2c9395ffc8807fce3bdf53
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Fri Sep 17 19:50:14 2021 +0300
+    
+        CC-14625 Added missed configs.
+    
+    commit 7eb563e72be2c99f3f83e4ac446adf7ad19e7749
+    Merge: 7f2301b398 15724ce1c4
+    Author: dima_tsemma <dmitry.tsemma@spryker.com>
+    Date:   Fri Sep 17 18:29:35 2021 +0300
+    
+        TE-9191 merged master
+    
+    commit 15724ce1c4eeb7360c9e49f66841ad7f0c9a41a2
+    Merge: da51bd9aba 9626fe0b3b
+    Author: Serhii Chepela <serhii.chepela@spryker.com>
+    Date:   Fri Sep 17 10:15:15 2021 +0300
+    
+        Merge pull request #1015 from spryker/feature/te-9003/integration-into-b2c
+    
+        TE-9003: Integrations
+    
+    commit 7f2301b3989046148ace85ad47a77ae1743ebd51
+    Author: Svytoslav Varpikhovsky <svytoslav.varpikhovsky@spryker.com>
+    Date:   Thu Sep 16 17:36:07 2021 +0300
+    
+        TE-9892 integration B2B
+    
+    commit 9626fe0b3b2077aef489860115f6245880e41db3
+    Author: Olha Livitchuk <olha.livitchuk@spryker.com>
+    Date:   Thu Sep 16 16:48:41 2021 +0300
+    
+        TE-9003 upm composer
+    
+    commit 7cc539c339f9525588f08cbc3c7b6a7e6a52515f
+    Merge: fbdc77f36b da51bd9aba
+    Author: Olha Livitchuk <olha.livitchuk@spryker.com>
+    Date:   Thu Sep 16 12:50:27 2021 +0300
+    
+        TE-9003 upd composer
+    
+    commit fbdc77f36be02d9589619fe8ec3964508d628ffe
+    Author: Olha Livitchuk <olha.livitchuk@spryker.com>
+    Date:   Thu Sep 16 12:32:53 2021 +0300
+    
+        TE-9003 Fixed integrator.lock
+    
+    commit bfb9cdaee297aded976ae8b6465b5f71db2778cc
+    Author: Olha Livitchuk <olha.livitchuk@spryker.com>
+    Date:   Thu Sep 16 12:28:06 2021 +0300
+    
+        TE-9003 Fixed integrator.lock
+    
+    commit 11779fa99c31290a29ebb731771cc1d0b18d4526
+    Author: Olha Livitchuk <olha.livitchuk@spryker.com>
+    Date:   Thu Sep 16 11:02:44 2021 +0300
+    
+        TE-9003 Fixed integrator.lock
+    
+    commit da51bd9abadd3d872f921f95314f8c7669848e35
+    Merge: b70cf4b4d8 c3be9c4f45
+    Author: Serhii Chepela <serhii.chepela@spryker.com>
+    Date:   Thu Sep 16 10:33:00 2021 +0300
+    
+        Merge pull request #1016 from spryker/bugfix/te-9522-404-error-page-for-zed
+    
+        TE-9522: Integrated into B2C
+    
+    commit f13cc40852e82f5f53e7216b773f692634623fe5
+    Author: Olha Livitchuk <olha.livitchuk@spryker.com>
+    Date:   Thu Sep 9 15:31:09 2021 +0300
+    
+        TE-9003 Updated codeception ver
+    
+    commit c3be9c4f453a6df0bac709f92b9e558abdc38179
+    Author: dima_tsemma <dmitry.tsemma@spryker.com>
+    Date:   Thu Sep 9 11:31:34 2021 +0300
+    
+        TE-9522: updated codeception bundle
+    
+    commit 10a35b25c8f0d6d73f9bb8084bcd59a2ab95ad84
+    Author: dima_tsemma <dmitry.tsemma@spryker.com>
+    Date:   Thu Sep 9 10:33:19 2021 +0300
+    
+        TE-9522: fixed travis error
+    
+    commit d217e379b4da5b12f27cfdf569663cf617a57cff
+    Author: dima_tsemma <dmitry.tsemma@spryker.com>
+    Date:   Thu Sep 9 09:29:45 2021 +0300
+    
+        TE-9522: fixed travis error
+    
+    commit 7a2db9205577e58280b642606024b69a2d074256
+    Author: Olha Livitchuk <olha.livitchuk@spryker.com>
+    Date:   Thu Sep 9 00:20:34 2021 +0300
+    
+        TE-9003 Fixed travis, updated integrator
+    
+    commit 3f9f6da0b0e77b58a820b00c5e5a3c7612b31e29
+    Author: dima_tsemma <dmitry.tsemma@spryker.com>
+    Date:   Wed Sep 8 15:03:00 2021 +0300
+    
+        TE-9522: Integrated into B2C
+    
+    commit acbecfb29c9d0740e279d9e3d5b2480687e3615b
+    Author: Olha Livitchuk <olha.livitchuk@spryker.com>
+    Date:   Wed Sep 8 01:12:57 2021 +0300
+    
+        TE-9003 fixed travis
+    
+    commit df20f5435cafebe6c49348602cb6401a9bfa0dda
+    Author: Olha Livitchuk <olha.livitchuk@spryker.com>
+    Date:   Tue Sep 7 23:13:32 2021 +0300
+    
+        TE-9003 Intergrated
+    
+    commit b70cf4b4d850031750ae5ad0b6a3e7197fe278b7
+    Merge: bc1ee9d9ab 58ee0f4f55
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Mon Aug 30 14:12:16 2021 +0300
+    
+        Merge pull request #1009 from spryker/bugfix/cc-14374-missing-integration-for-supesc-215
+    
+        CC-14374: Fixed missing integration for product attributes.
+    
+    commit a3acf0a7a2b1b5d1d39f5b39c57e8a09c10f59be
+    Author: Ilya Kubanov <45764294+ilyakubanov@users.noreply.github.com>
+    Date:   Thu Aug 26 18:07:34 2021 +0300
+    
+        MP-5629: updated modules versions (#1014)
+    
+        * MP-5629: updated modules versions
+    
+        * MP-5629: package versions synchronized
+    
+        * MP-5629: fixed spryker-shop/content-navigation-widget version
+    
+        * MP-5629: fixed spryker/code-sniffer dependency version
+    
+        * MP-5629: code style fixed
+    
+        Co-authored-by: Volodymyr Bezuhlyi <volodymyr.bezuhlyi@spryker.com>
+    
+    commit bc1ee9d9ab0a5c4333b89b985d8d6ca87aa47366
+    Merge: ec0210b634 b1d70dded9
+    Author: dmytro-sokolovskyi <79465867+dmytro-sokolovskyi@users.noreply.github.com>
+    Date:   Thu Aug 26 09:22:09 2021 +0300
+    
+        Merge pull request #1010 from spryker/feature/CC-14422/cart-recalculation-integration
+    
+        [CC-14422] B2C integration Cart isn't recalculated correctly
+    
+    commit 6e4f4596ba5e130a09434cebf3b62474d3bef3cd
+    Author: Veronica Golska <86779768+geronica@users.noreply.github.com>
+    Date:   Wed Aug 25 13:11:53 2021 +0300
+    
+        CC-14422: Integration in B2C demo shop: Creating an admin user account unauthenticated via the login form (Back-office) (#1011)
+    
+        * CC-14422 updated security-gui, security-oauth-user to the latest versions
+    
+        * CC-14434 Update module versions to latest stable releases
+    
+        Co-authored-by: Anton Khabiuk <anton.khabiuk@spryker.com>
+    
+    commit cf9b62d586ca12817648af862d512013dbadde5a
+    Author: pivovarov <stanislav.pivovarov@spryker.com>
+    Date:   Tue Aug 17 16:28:58 2021 +0300
+    
+        [CC-14436] fix sniff
+    
+    commit cb9be1e93512cf81070b7d21c3f9aa88fc6396b1
+    Author: pivovarov <stanislav.pivovarov@spryker.com>
+    Date:   Tue Aug 17 16:04:15 2021 +0300
+    
+        [CC-14436] B2C integration Empty range filters are not hidden
+    
+    commit b1d70dded9178cce4c7e034c419dce5652b302cf
+    Author: pivovarov <stanislav.pivovarov@spryker.com>
+    Date:   Mon Aug 16 16:05:20 2021 +0300
+    
+        [CC-14422] B2C integration Cart isn't recalculated correctly
+    
+    commit 70180d44cc68036c3a87f6c0152fb35d66f1f4a1
+    Author: pivovarov <stanislav.pivovarov@spryker.com>
+    Date:   Mon Aug 16 15:05:27 2021 +0300
+    
+        [CC-14422] B2C integration Cart isn't recalculated correctly
+    
+    commit 58ee0f4f559f49cee96713c76484f6b8f5a5259f
+    Author: Dima Aseev <dmitriy.aseev@spryker.com>
+    Date:   Thu Aug 12 21:19:50 2021 +0300
+    
+        CC-14374: Adjused molecula due to missing integration for SUPESC-215.
+    
+    commit 05482186fb0e5ab0ca75b686e995eae08ef5c891
+    Author: maslov <dev.maslov.a@gmail.com>
+    Date:   Tue Jul 27 16:09:33 2021 +0300
+    
+        CC-14025: fixed checkboxes on the create return page
+    
+    commit ec0210b634253bc3904b61013426d63aeea058dd
+    Merge: cfb125e9d5 c8170523d6
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Fri Jul 23 12:07:07 2021 +0300
+    
+        Merge pull request #994 from spryker/july-regression-fixes
+    
+        [Do not merge!] July regression fixes.
+    
+    commit c8170523d652c88c093ba4adb2044919e6ac64ea
+    Merge: 4354300cfd adc0eec245
+    Author: Vasily Migel <vmigel@gmail.com>
+    Date:   Thu Jul 22 22:42:04 2021 +0300
+    
+        Merge pull request #1002 from spryker/bugfix/cc-14228-b2c-integration-price-product-schedule
+    
+        CC-14228 b2c-integration-price-product-schedule:
+    
+    commit adc0eec245bdc9d837fcd12e996dc1ea4d5ed4e9
+    Merge: e882eda1c8 4354300cfd
+    Author: marina <m934222258@gmail.com>
+    Date:   Thu Jul 22 16:43:44 2021 +0000
+    
+        Merge branch 'july-regression-fixes' of github.com:spryker/b2c-demo-shop-internal into bugfix/cc-14228-b2c-integration-price-product-schedule
+    
+        # Conflicts:
+        #   composer.json
+        #   composer.lock
+    
+    commit e882eda1c8c4928400b4bdd4a5fd35f132288053
+    Author: marina <m934222258@gmail.com>
+    Date:   Thu Jul 22 16:11:30 2021 +0000
+    
+        bugfix/cc-14228-b2c-integration-price-product-schedule:
+    
+        upgraded price-product-schedule - 2.3.0
+    
+    commit 4354300cfdd93f5587ef69881981f60ae2af5aae
+    Merge: 1b41eb0a2f a526fe56b6
+    Author: Vasily Migel <vmigel@gmail.com>
+    Date:   Thu Jul 22 17:05:56 2021 +0300
+    
+        Merge pull request #998 from spryker/bugfix/cc-14025-integration-after-smoke
+    
+        CC-14025 - Integrated bugfixes CC-14177 and SC-6232.
+    
+    commit a526fe56b6c026d8e0753bbeec4b124f113b71a2
+    Author: marina <m934222258@gmail.com>
+    Date:   Thu Jul 22 13:20:16 2021 +0000
+    
+        bugfix/cc-14025-integration-after-smoke
+    
+        code style updated
+    
+    commit 40ec4cbc09a0c468bf2457dc6623fbda235f536d
+    Merge: 0c7873f351 1b41eb0a2f
+    Author: marina <m934222258@gmail.com>
+    Date:   Thu Jul 22 13:14:54 2021 +0000
+    
+        Merge branch 'july-regression-fixes' of github.com:spryker/b2c-demo-shop-internal into bugfix/cc-14025-integration-after-smoke
+    
+        # Conflicts:
+        #   composer.lock
+    
+    commit 0c7873f351944110b684010555e78763c08137b5
+    Author: marina <m934222258@gmail.com>
+    Date:   Thu Jul 22 13:05:25 2021 +0000
+    
+        bugfix/cc-14025-integration-after-smoke:
+    
+        upgraded spryker/maintenance - 3.3.0
+    
+    commit 1b41eb0a2f342889c8e02672a071502e9808acbd
+    Merge: d0a4fc9a55 b188e41285
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Thu Jul 22 16:01:39 2021 +0300
+    
+        Merge pull request #1000 from spryker/bugfix/cc-14225-integration-after-smoke-part1
+    
+        CC-14225 Integrated bugfix
+    
+    commit b188e412855b19385be05cc3cc6d7871b442203d
+    Author: Dmitry Lymarenko <dmitry.lymarenko@spryker.com>
+    Date:   Thu Jul 22 15:00:21 2021 +0300
+    
+        CC-14225 Integrated bugfix
+    
+    commit e7f83efefe18ce6431bbca683e0d72502e6fc5c9
+    Author: Aleksandr Myrnyi <oleksandr.myrnyi@spryker.com>
+    Date:   Thu Jul 22 09:45:04 2021 +0300
+    
+        Update ConsoleDependencyProvider.php
+    
+    commit d0a4fc9a555cf3fbf21fff99fb99711c3056d4df
+    Merge: cd61f994db 9415c2c77f
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Wed Jul 21 17:41:10 2021 +0300
+    
+        Merge pull request #989 from spryker/bugfix/cc-14158-yves-form-save-btn-name-fix
+    
+        CC-14158 - fixed German translation of the name for the save buttons.
+    
+    commit 9415c2c77f2e4cc46b820445bcfb126d54eb29af
+    Author: pavel.makismov <pavlo.maksymov@spryker.com>
+    Date:   Wed Jul 21 17:38:17 2021 +0300
+    
+        CC-14158 - glossary items duplicates fix.
+    
+    commit cd61f994db8a8451023ea19e710365d2c7d859db
+    Merge: 49054060f2 032591d76e
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Wed Jul 21 17:09:47 2021 +0300
+    
+        Merge pull request #997 from spryker/bugfix/cc-14190-us-store-production-category-data-import-fix
+    
+        CC-14190 - Fixed category-store data import for the US store for production environment.
+    
+    commit c161effec5087f6d34e295edb09fadf9cad5ec9a
+    Author: pavel.makismov <pavlo.maksymov@spryker.com>
+    Date:   Wed Jul 21 15:23:20 2021 +0300
+    
+        CC-14025 - integrated bugfixes CC-14177 and SC-6232.
+    
+    commit 49054060f2cdf70e1c0a05f20c0f04f95ebdbf1e
+    Merge: 2ee1433f7e 8d90428741
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Wed Jul 21 14:27:46 2021 +0300
+    
+        Merge pull request #996 from spryker/bugfix/cc-14159-wishlist-wrong-translation-on-add-product
+    
+        CC-14159 Wishlist wrong translation on add product
+    
+    commit 032591d76e21f3ee4206816b06b6ed22fb7ecd96
+    Author: pavel.makismov <pavlo.maksymov@spryker.com>
+    Date:   Wed Jul 21 12:16:10 2021 +0300
+    
+        CC-14190 - fixed categoty-store import for the US store for production env.
+    
+    commit 2ee1433f7eb9a43fe217f34f095d15d47d90861e
+    Merge: 464f73be58 f53005ec72
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Wed Jul 21 12:14:49 2021 +0300
+    
+        Merge pull request #995 from spryker/bugfix/cc-14148-enable-to-delete-second-customer-address
+    
+        CC-14148 enable to delete second customer address
+    
+    commit 8d904287419b09ca2970bde2027d2f52f8747288
+    Author: Serhii Shynkarenko <serhii.shynkarenko@spryker.com>
+    Date:   Wed Jul 21 12:03:23 2021 +0300
+    
+        bugfix/cc-14159-wishlist-wrong-translation-on-add-product: change translation
+    
+    commit f53005ec72dc8f9f16b4328a5c5dc7b07a6a8f17
+    Author: marina <m934222258@gmail.com>
+    Date:   Tue Jul 20 14:37:57 2021 +0000
+    
+        bugbix/cc-14148-enable-to-delete-second-customer-address:
+    
+        fixed due to frontend AA review
+    
+    commit 490490ec8d5dcc528d09d8bc819d62dced5fc92a
+    Author: marina <m934222258@gmail.com>
+    Date:   Tue Jul 20 14:34:05 2021 +0000
+    
+        bugbix/cc-14148-enable-to-delete-second-customer-address:
+    
+        fixed due to frontend AA review
+    
+    commit 5e06a1a49dfda9318c576624d21174e4f2b4ade5
+    Author: marina <m934222258@gmail.com>
+    Date:   Tue Jul 20 12:52:40 2021 +0000
+    
+        bugbix/cc-14148-enable-to-delete-second-customer-address:
+    
+        fixed creating view for customerDeleteAddressForm in address.twig
+    
+    commit 464f73be58ccc1ab60e00031a2061d4d84f1b3cc
+    Merge: acfa957b41 b3661d0d5e
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Tue Jul 20 14:38:10 2021 +0300
+    
+        Merge pull request #986 from spryker/bugfix/cc-14147-configurable-bundle-widget-is-broken-on-create-return
+    
+        CC-14147 - Updated return create forms.
+    
+    commit acfa957b41b08a02ef8b48f2ef3dc4d101618d66
+    Merge: 5541745d07 d0aedb3d57
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Tue Jul 20 12:34:05 2021 +0300
+    
+        Merge pull request #987 from spryker/bugfix/cc-14149-configurable-bundles-on-odp
+    
+        CC-14149  Configurable bundles in ODP Yves duplicated in items section
+    
+    commit 822773443c0c849dd2905ef109363a4a8c173c53
+    Author: pavel.makismov <pavlo.maksymov@spryker.com>
+    Date:   Mon Jul 19 16:51:48 2021 +0300
+    
+        CC-14158 - typo fix.
+    
+    commit 3cbd0c2d59271a02c058306f32b834bc5e05ed91
+    Author: pavel.makismov <pavlo.maksymov@spryker.com>
+    Date:   Mon Jul 19 16:24:07 2021 +0300
+    
+        CC-14158 - form save button translation fix.
+    
+    commit d2bf6d43b4d69ec6a5f3707d402ed90d6bdaa01a
+    Author: pavel.makismov <pavlo.maksymov@spryker.com>
+    Date:   Mon Jul 19 16:20:58 2021 +0300
+    
+        CC-14158 - form save button translation fix.
+    
+    commit d0aedb3d5745ce288b6e5f1e120f7dcac0276ff3
+    Author: AntonKhabiuk <brotherosirus@gmail.com>
+    Date:   Mon Jul 19 13:08:57 2021 +0300
+    
+        CC-14149 Fix ODP template to not show configurable product bundle items with regular items.
+    
+    commit b3661d0d5e4daae5cae8981ab9658e39d83c1dfc
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Mon Jul 19 10:43:02 2021 +0300
+    
+        CC-14147 Updates after CR.
+    
+    commit fe64622a773cef4ae35e13c21a09d6aab6f8560b
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Mon Jul 19 10:26:25 2021 +0300
+    
+        CC-14147 Updates after CR.
+    
+    commit b154b9fb4915b11a4e1b16a6cafd7c3b3fb0916a
+    Author: Roman Havrylko <roman.havrylko@spryker.com>
+    Date:   Fri Jul 16 17:58:40 2021 +0300
+    
+        CC-14147 Updated return create forms.
+    
+    commit cfb125e9d51d3d2860cc5f27c3a3b481580b65db
+    Merge: 3352287518 5541745d07
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Fri Jul 16 12:40:01 2021 +0300
+    
+        Merge pull request #965 from spryker/july-regression-fixes
+    
+        [DO NOT MERGE] July regression fixes.
+    
+    commit 5541745d0736316acefbb7cb349c5309fa905e42
+    Merge: ad3bd87773 0d6fd14de9
+    Author: Denys Sokolov <denys.sokolov@spryker.com>
+    Date:   Fri Jul 16 12:39:35 2021 +0300
+    
+        Merge pull request #984 from spryker/bugfix/cc-14126-bugfix-integration-part6
+    
+        CC-14126 - integrated bugfixes for the CC-14088, CC-13945 and CC-13985 tickets.
+    
+    commit 0d6fd14de911e98f470d0a848f14323ecec1522e
+    Author: Kostiantyn Kichehlov <kostiantyn.kichehlov@spryker.com>
+    Date:   Fri Jul 16 08:18:04 2021 +0300
+    
+        CC-14126 Update composer.lock
+    
+    commit 5fc44144965c56184028bbb057a85ec08185e3d6
+    Merge: 84fdcbf0fe ad3bd87773
+    Author: Kostiantyn Kichehlov <kostiantyn.kichehlov@spryker.com>
+    Date:   Fri Jul 16 08:04:55 2021 +0300
+    
+        Merge branch 'july-regression-fixes' of github.com:spryker/b2c-demo-shop-internal into bugfix/cc-14126-bugfix-integration-part6
+    
+    commit ad3bd877737eaf8c0ab117163bc53e6eb13a539d
+    Merge: 2fa9df329b 47fedbd9c2
+    Author: Vasily Migel <vmigel@gmail.com>
+    Date:   Fri Jul 16 00:19:51 2021 +0300
+    
+        Merge pull request #985 from spryker/bugfix/cc-14132-bugfixes-integration
+    
+        CC-14132 Bugfixes integration
+    
+    commit 84fdcbf0fe8e19f283948d08b259188141855517
+    Author: AntonKhabiuk <b

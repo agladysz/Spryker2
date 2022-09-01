@@ -29,5 +29,23 @@ class FaqsResourceController extends AbstractController
         }
     }
 
+<<<<<<< Updated upstream
+=======
+    public function postAction(RestRequestInterface $restRequest): RestResponseInterface
+    {
+        return $this->getFactory()->createFaqsCreator()->postFaq($restRequest);
+    }
+
+    public function patchAction(RestRequestInterface $restRequest): RestResponseInterface
+    {
+       return $this->getFactory()->createFaqsCreator()->patchFaq($restRequest);
+    }
+
+    public function deleteAction(RestRequestInterface $restRequest): RestResponseInterface
+    {
+        return $this->getFactory()->createFaqsDeleter()->deleteFaq($restRequest);
+    }
+
+>>>>>>> Stashed changes
 
 }

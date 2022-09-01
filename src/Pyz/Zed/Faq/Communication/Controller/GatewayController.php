@@ -19,11 +19,14 @@ class GatewayController extends AbstractGatewayController {
     }
     public function deleteFaqAction(FaqTransfer $faqRestApiTransfer) : FaqTransfer
     {
-        return $this->getFacade()->deleteFaq($faqRestApiTransfer);
+        return $this->getFacade()->removeFaq($faqRestApiTransfer);
     }
-    public function postFaqAction(FaqTransfer $faqRestApiTransfer) : FaqTransfer
+    public function addFaqAction(FaqTransfer $faqRestApiTransfer) : FaqTransfer
     {
-        return $this->getFacade()->postFaq($faqRestApiTransfer);
+        return $this->getFacade()->saveFaq($faqRestApiTransfer);
     }
-
+    public function changeFaqAction(FaqTransfer $faqRestApiTransfer) : FaqTransfer
+    {
+        return $this->getFacade()->changeFaq($faqRestApiTransfer);
+    }
 }

@@ -36,5 +36,11 @@ interface FaqFacadeInterface
      * @return \Generated\Shared\Transfer\FaqTransfer|null
      */
     public function findFaqById(int $idFaq): ?FaqTransfer;
+<<<<<<< Updated upstream
+=======
+    public function getFaqCollection(FaqCollectionTransfer $faqCollectionTransfer): FaqCollectionTransfer;
+    public function changeFaq(FaqTransfer $FaqRestApiTransfer): FaqTransfer;
+    public function getFaq(FaqTransfer $faqTransfer): FaqTransfer;
+>>>>>>> Stashed changes
 
 }
