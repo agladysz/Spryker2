@@ -2,8 +2,10 @@
 
 namespace Pyz\Glue\FaqsRestApi\Processor\Faqs;
 
+use Exception;
 use Generated\Shared\Transfer\FaqTransfer;
 use Generated\Shared\Transfer\FaqCollectionTransfer;
+use Generated\Shared\Transfer\RestErrorMessageTransfer;
 use Pyz\Glue\FaqsRestApi\FaqsRestApiConfig;
 use Pyz\Glue\FaqsRestApi\Processor\Mapper\FaqsResourceMapperInterface;
 use Pyz\Glue\FaqsRestApi\Processor\Mapper\FaqsResourceMapper;
@@ -46,18 +48,22 @@ class FaqsReader implements FaqsReaderInterface
     {
         $restResponse = $this->restResourceBuilder->createRestResponse();
 
-        $faqCollectionTransfer = $this->faqsRestApiClient->getFaqCollection(new FaqCollectionTransfer());
+        try {
+            $faqCollectionTransfer = $this->faqsRestApiClient->getFaqCollection(new FaqCollectionTransfer());
+            foreach ($faqCollectionTransfer->getFaqs() as $faqTransfer) {
+                $restResource = $this->restResourceBuilder->createRestResource(
+                    FaqsRestApiConfig::RESOURCE_FAQS,
+                    $faqTransfer->getIdFaq(),
+                    $this->faqMapper->mapFaqDataToFaqRestAttributes($faqTransfer->toArray())
+                );
+                $restResponse->addResource($restResource);
+            }
+            return $restResponse;
 
-        foreach ($faqCollectionTransfer->getFaqs() as $faqTransfer) {
-            $restResource = $this->restResourceBuilder->createRestResource(
-                FaqsRestApiConfig::RESOURCE_FAQS,
-                $faqTransfer->getIdFaq(),
-                $this->faqMapper->mapFaqDataToFaqRestAttributes($faqTransfer->toArray())
-            );
-            $restResponse->addResource($restResource);
+        } catch(Exception $e) {
+            return $restResponse->addError(
+            (new RestErrorMessageTransfer())->setStatus(404));
         }
-
-        return $restResponse;
     }
     /**
      * @param RestRequestInterface $restRequest
@@ -70,17 +76,22 @@ class FaqsReader implements FaqsReaderInterface
 
         $faqTransfer = new FaqTransfer();
         $faqTransfer->setIdFaq($restRequest->getResource()->getId());
-        $faqTransfer = $this->faqsRestApiClient->getFaq($faqTransfer);
-
-        if( !is_null($faqTransfer) ) {
+        try {
+            $faqTransfer = $this->faqsRestApiClient->getFaq($faqTransfer);
             $restResource = $this->restResourceBuilder->createRestResource(
                 FaqsRestApiConfig::RESOURCE_FAQS,
                 $faqTransfer->getIdFaq(),
                 $this->faqMapper->mapFaqDataToFaqRestAttributes($faqTransfer->toArray())
             );
             $restResponse->addResource($restResource);
+
+            return $restResponse;
+
+        } catch(Exception $e) {
+            return $restResponse->addError(
+                (new RestErrorMessageTransfer())->setStatus(404));
         }
-        return $restResponse;
+
     }
 }
 

@@ -2,7 +2,9 @@
 
 namespace Pyz\Glue\FaqsRestApi\Processor\Faqs;
 
+use Exception;
 use Generated\Shared\Transfer\FaqTransfer;
+use Generated\Shared\Transfer\RestErrorMessageTransfer;
 use Pyz\Client\FaqsRestApi\FaqsRestApiClientInterface;
 use Pyz\Glue\FaqsRestApi\Processor\Mapper\FaqsResourceMapper;
 use Pyz\Glue\FaqsRestApi\Processor\Mapper\FaqsResourceMapperInterface;
@@ -50,8 +52,13 @@ class FaqsDeleter implements FaqsDeleterInterface
 
         $restResponse = $this->restResourceBuilder->createRestResponse();
 
-        $faqTransfer = $this->faqsRestApiClient->deleteFaq($faqTransfer);
+        try {
+            $faqTransfer = $this->faqsRestApiClient->deleteFaq($faqTransfer);
 
-        return $restResponse;
+            return $restResponse;
+        } catch(Exception $e) {
+            return $restResponse->addError(
+            (new RestErrorMessageTransfer())->setStatus(404));
+        }
     }
 }

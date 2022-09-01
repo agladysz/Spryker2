@@ -2,7 +2,9 @@
 
 namespace Pyz\Glue\FaqsRestApi\Processor\Faqs;
 
+use Exception;
 use Generated\Shared\Transfer\FaqTransfer;
+use Generated\Shared\Transfer\RestErrorMessageTransfer;
 use Pyz\Client\FaqsRestApi\FaqsRestApiClientInterface;
 use Pyz\Glue\FaqsRestApi\Processor\Mapper\FaqsResourceMapper;
 use Pyz\Glue\FaqsRestApi\Processor\Mapper\FaqsResourceMapperInterface;
@@ -50,7 +52,15 @@ class FaqsCreator implements FaqsCreatorInterface
         $restResponse = $this->restResourceBuilder->createRestResponse();
         $faqTransfer = $this->faqsRestApiClient->addFaq($faqTransfer);
 
-        return $restResponse;
+        try {
+            $faqTransfer = $this->faqsRestApiClient->changeFaq($faqTransfer);
+
+            return $restResponse;
+        } catch(Exception $e) {
+            return $restResponse->addError(
+                (new RestErrorMessageTransfer())->setStatus(404)
+            );
+        }
     }
 
     /**
@@ -64,8 +74,15 @@ class FaqsCreator implements FaqsCreatorInterface
         $faqTransfer = (new FaqTransfer())->fromArray($resourceArray);
 
         $restResponse = $this->restResourceBuilder->createRestResponse();
-        $faqTransfer = $this->faqsRestApiClient->changeFaq($faqTransfer);
 
-        return $restResponse;
+        try {
+            $faqTransfer = $this->faqsRestApiClient->changeFaq($faqTransfer);
+
+            return $restResponse;
+        } catch(Exception $e) {
+            return $restResponse->addError(
+                (new RestErrorMessageTransfer())->setStatus(404)
+            );
+        }
     }
 }
