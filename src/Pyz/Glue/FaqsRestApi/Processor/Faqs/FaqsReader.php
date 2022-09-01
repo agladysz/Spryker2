@@ -70,6 +70,7 @@ class FaqsReader implements FaqsReaderInterface
 
         $faqTransfer = new FaqTransfer();
         $faqTransfer->setIdFaq($restRequest->getResource()->getId());
+        $faqTransfer = $this->faqsRestApiClient->getFaq($faqTransfer);
 
         if( !is_null($faqTransfer) ) {
             $restResource = $this->restResourceBuilder->createRestResource(
