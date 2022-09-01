@@ -50,7 +50,6 @@ class FaqsRestApiZedStub implements FaqsRestApiZedStubInterface
         /** @var \Generated\Shared\Transfer\FaqTransfer $faqTransfer */
 
         $faqTransfer = $this->zedRequestClient->call('/faq/gateway/delete-faq', $faqTransfer);
-
         return $faqTransfer;
     }
 

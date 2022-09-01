@@ -66,10 +66,11 @@ class FaqsReader implements FaqsReaderInterface
 
     public function getFaq(RestRequestInterface $restRequest): RestResponseInterface
     {
-         $faqTransfer = new FaqTransfer();
-         $faqTransfer->setIdFaq($restRequest->getResource()->getId());
+        $restResponse = $this->restResourceBuilder->createRestResponse();
 
-<<<<<<< Updated upstream
+        $faqTransfer = new FaqTransfer();
+        $faqTransfer->setIdFaq($restRequest->getResource()->getId());
+
         if( !is_null($faqTransfer) ) {
             $restResource = $this->restResourceBuilder->createRestResource(
                 FaqsRestApiConfig::RESOURCE_FAQS,
@@ -79,35 +80,6 @@ class FaqsReader implements FaqsReaderInterface
             $restResponse->addResource($restResource);
         }
         return $restResponse;
-
-        /* $restResponse = $this->restResourceBuilder->createRestResponse();
-
-        $faqTransfer = $this->faqsRestApiClient->getFaq(new FaqTransfer());
-        $restResource = $this->restResourceBuilder->createRestResource(
-            FaqSRestApiConfig::RESOURCE_FAQ,
-            $faqTransfer->getIdFaq(),
-            $this->faqMapper->mapFaqDataToFaqRestAttributes($faqTransfer->toArray())
-        );
-        $restResponse->addResource($restResource);
-
-        return $restResponse; */
     }
-=======
-         $restResponse = $this->restResourceBuilder->createRestResponse();
-
-         $faqTransfer = $this->faqsRestApiClient->getFaq($faqTransfer);
-
-         if( !is_null($faqTransfer) ) {
-             $restResource = $this->restResourceBuilder->createRestResource(
-                 FaqsRestApiConfig::RESOURCE_FAQS,
-                 $faqTransfer->getIdFaq(),
-                 $this->faqMapper->mapFaqDataToFaqRestAttributes($faqTransfer->toArray())
-             );
-             $restResponse->addResource($restResource);
-         }
-         return $restResponse;
-    }
-
->>>>>>> Stashed changes
 }
 

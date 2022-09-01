@@ -8,9 +8,6 @@ class FaqsRestApiConfig extends AbstractBundleConfig
 {
     public const RESOURCE_FAQS = 'faqs';
 
-<<<<<<< Updated upstream
-=======
     public const RESPONSE_CODE_FAQS_NOT_FOUND = '101';
     public const RESPONSE_CODE_FAQS_VALIDATION = '102';
->>>>>>> Stashed changes
 }
