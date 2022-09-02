@@ -42,7 +42,8 @@ class IndexController extends AbstractController
         foreach($faqCollectionTransfer as $faq)
         {
             if( $faq->getActivated() != false || $faq->getActivated() != 0) {
-                $farray = array('question' => $faq->getQuestion(),
+                $farray = array(
+                    'question' => $faq->getQuestion(),
                     'answer' => $faq->getAnswer(),
                     'votes' => $faq->getVotesCounter()
                 );

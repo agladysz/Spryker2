@@ -38,4 +38,6 @@ interface FaqFacadeInterface
      */
     public function findFaqById(int $idFaq): ?FaqTransfer;
     public function getFaqCollection(FaqCollectionTransfer $faqCollectionTransfer): FaqCollectionTransfer;
+    public function changeFaq(FaqTransfer $FaqRestApiTransfer): FaqTransfer;
+    public function getFaq(FaqTransfer $faqTransfer): FaqTransfer;
 }

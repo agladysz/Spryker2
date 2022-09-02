@@ -31,13 +31,50 @@ class FaqsRestApiZedStub implements FaqsRestApiZedStubInterface
 
         return $faqCollectionTransfer;
     }
-
-    public function getFaq(FaqTransfer $faqTransfer, int $id): FaqTransfer
+    /**
+     * @return \Generated\Shared\Transfer\FaqTransfer
+     */
+    public function getFaq(FaqTransfer $faqTransfer): FaqTransfer
     {
         /** @var \Generated\Shared\Transfer\FaqTransfer $faqTransfer */
 
-        $faqTransfer->setIdFaq($id);
         $faqTransfer = $this->zedRequestClient->call('/faq/gateway/get-faq', $faqTransfer);
+
+        return $faqTransfer;
+    }
+    /**
+     * @return \Generated\Shared\Transfer\FaqTransfer
+     */
+    public function deleteFaq(FaqTransfer $faqTransfer): FaqTransfer
+    {
+        /** @var \Generated\Shared\Transfer\FaqTransfer $faqTransfer */
+
+        $faqTransfer = $this->zedRequestClient->call('/faq/gateway/delete-faq', $faqTransfer);
+        return $faqTransfer;
+    }
+
+    /**
+     * @return \Generated\Shared\Transfer\FaqTransfer
+     */
+
+    public function addFaq(FaqTransfer $faqTransfer): FaqTransfer
+    {
+        /** @var \Generated\Shared\Transfer\FaqTransfer $faqTransfer */
+
+        $faqTransfer = $this->zedRequestClient->call('/faq/gateway/add-faq', $faqTransfer);
+
+        return $faqTransfer;
+    }
+
+    /**
+     * @return \Generated\Shared\Transfer\FaqTransfer
+     */
+
+    public function changeFaq(FaqTransfer $faqTransfer): FaqTransfer
+    {
+        /** @var \Generated\Shared\Transfer\FaqTransfer $faqTransfer */
+
+        $faqTransfer = $this->zedRequestClient->call('/faq/gateway/change-faq', $faqTransfer);
 
         return $faqTransfer;
     }
