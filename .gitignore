@@ -98,3 +98,4 @@ c3.php
 .phpstorm.meta.php
 .githook_local
 /src/Pyz/Zed/Planet/
+/src/Pyz/Glue/PlanetsRestApi/
