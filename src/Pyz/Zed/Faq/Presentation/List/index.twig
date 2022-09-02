@@ -8,7 +8,7 @@
 {% block content %}
     {% embed '@Gui/Partials/widget.twig' with { widget_title: 'List of Faqs' } %}
         {% block widget_content %}
-             {{ createActionButton('/faq/create', 'Add new Faq' | trans) }}
+            {{ createActionButton('/faq/create', 'Add new Faq' | trans) }}
             {{ FaqTable | raw }}
 
         {% endblock %}

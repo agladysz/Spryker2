@@ -84,14 +84,12 @@ class FaqsReader implements FaqsReaderInterface
                 $this->faqMapper->mapFaqDataToFaqRestAttributes($faqTransfer->toArray())
             );
             $restResponse->addResource($restResource);
-
             return $restResponse;
 
         } catch(Exception $e) {
             return $restResponse->addError(
                 (new RestErrorMessageTransfer())->setStatus(404));
         }
-
     }
 }
 
