@@ -2,6 +2,7 @@
 
 namespace Pyz\Yves\FaqsRestApi\Controller;
 
+use Exception;
 use Generated\Shared\Transfer\FaqCollectionTransfer;
 use Spryker\Yves\Kernel\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -19,9 +20,12 @@ class IndexController extends AbstractController
     public function indexAction(Request $request)
     {
         $faqCollectionTransfer = new FaqCollectionTransfer();
-        $faqCollectionTransfer = $this->getClient()->getFaqCollection($faqCollectionTransfer);
-        $faqs = $this->readArray($faqCollectionTransfer);
+        try {
+            $faqCollectionTransfer = $this->getClient()->getFaqCollection($faqCollectionTransfer);
+            $faqs = $this->readArray($faqCollectionTransfer);
+        } catch (Exception $e) {
 
+        }
         $data = ['faqs' => $faqs];
 
         return $this->view(
